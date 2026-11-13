@@ -18,7 +18,7 @@ PREVIEW = '--preview' in sys.argv or TEST
 BASE = '/ny-side' if TEST else ''
 OUT = os.path.join(ROOT, 'test' if TEST else 'preview' if PREVIEW else 'dist')
 MEDIA = '' if (TEST or not PREVIEW) else DOMAIN   # billeder ligger i /media på serveren
-FORM_ACTION = '/_wp_/wp-json/wsb20/v1/forms/submit'
+FORM_ACTION = '/send.php'
 OG_LOCALE = {'da': 'da_DK', 'en': 'en_GB', 'de': 'de_DE', 'sv': 'sv_SE'}
 e = lambda s: html.escape(s or '', quote=True)
 import hashlib

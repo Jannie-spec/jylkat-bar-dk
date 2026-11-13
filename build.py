@@ -21,6 +21,8 @@ MEDIA = '' if (TEST or not PREVIEW) else DOMAIN   # billeder ligger i /media på
 FORM_ACTION = BASE + '/send.php'
 OG_LOCALE = {'da': 'da_DK', 'en': 'en_GB', 'de': 'de_DE', 'sv': 'sv_SE'}
 e = lambda s: html.escape(s or '', quote=True)
+import hashlib
+VER = hashlib.md5(b''.join(open(os.path.join(ROOT, 'site/assets', f), 'rb').read() for f in ['site.css', 'site.js'])).hexdigest()[:8]
 
 
 def t(d, lang):
@@ -133,7 +135,7 @@ def page(lang, slug, title, desc, body, langs=LANGS, noindex=False, ld=None, og_
 <meta name="twitter:card" content="summary_large_image">
 <link rel="icon" href="{img(COMMON['logo'])}">
 <link rel="preload" href="{BASE}/assets/fonts/source-serif.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="{BASE}/assets/site.css">
+<link rel="stylesheet" href="{BASE}/assets/site.css?v={VER}">
 {lds}{extra_head}
 </head>
 <body>
@@ -147,7 +149,7 @@ def page(lang, slug, title, desc, body, langs=LANGS, noindex=False, ld=None, og_
 {body}
 </main>
 {footer(lang)}
-<script src="{BASE}/assets/site.js" defer></script>
+<script src="{BASE}/assets/site.js?v={VER}" defer></script>
 </body>
 </html>
 '''

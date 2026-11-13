@@ -1,0 +1,73 @@
+{
+ "dishes": ["Ruths kryddersild fra Christiansø med rødløg","Hummersalat med hummerhaler, dild og grønne asparges","Varmrøget laks med purløg, citron og sprøde radiser","Roastbeef med syltede agurker og hjemmerørt remoulade","Julemedister med frisk rødkålssalat og appelsin","Juledog med confiteret and og syltede rødløg","Surdejsbrød, rugbrød og pisket smør"],
+ "dates": ["Tors 27. nov","Fre 28. nov","Lør 29. nov","Tors 3. dec","Fre 4. dec","Lør 5. dec","Søn 6. dec","Tors 10. dec","Fre 11. dec","Lør 12. dec","Søn 13. dec","Tors 17. dec","Fre 18. dec","Lør 19. dec","Søn 20. dec"],
+ "tent_h2": "Inde i det lune telt – ude ved havet",
+ "tent_p": "Det helt særlige ved Jylkat er, at I sidder lunt og varmt inde i teltet, men stadig føler, at I er ude i naturen. Gennem de klare teltvægge ser I bølgerne slå ind mod molen og stenene ved Gudhjem Havn, mens lyskæderne skinner, og julemusikken spiller. Det er julefrokost med havet lige udenfor.",
+ "dates_h2": "Kun 15 datoer i år",
+ "dates_p": "Vi serverer juleanretning torsdag til søndag fra 27. november til 20. december. Det giver 15 datoer – og de bedste weekender går først.",
+ "img_wide1": "/media/2026/10/julefrokost-jylkat-telt-lyskaeder-bred.jpg",
+ "img_wide2": "/media/2026/10/julefrokost-jylkat-telt-borde-bred.jpg",
+ "img_lamps": "/media/2026/10/julefrokost-jylkat-telt-lamper.jpg",
+ "img_alt": "Juletelt på Jylkat ved Gudhjem Havn med lyskæder og julepynt",
+ "overnight_url": "https://www.hotelklippen.com/skt-joergens-gaard-gudhjem",
+ "pages": {
+  "julefrokost": {
+   "title": "Julefrokost i Gudhjem på Jylkat | Juleanretning 375 kr.",
+   "desc": "Hold julefrokost i juleteltet på Jylkat ved Gudhjem Havn. Juleanretning til 375 kr. pr. kuvert, julemusik og hyggelig stemning. Kun 15 datoer – forespørg på jeres dato.",
+   "kicker": "JULEFROKOST · GUDHJEM HAVN",
+   "h1": "Julefrokost i juleteltet på Jylkat",
+   "lead": "Saml familien eller vennerne til juleanretning, julemusik og rigtig julefrokoststemning ved Gudhjem Havn. 375 kr. pr. kuvert – og kun 15 datoer i år.",
+   "hero": "img_wide1", "tent_img": "img_wide2",
+   "lists": [
+    {"h2":"Sådan bliver jeres julefrokost","p":"I får jeres eget bord i vores lune juletelt. Der sidder også andre selskaber, så der er fuld julefrokoststemning hele aftenen.","items":["Julemusik, juletræ og pynt – og ja, vi har pyntet overdrevet op","Personalet har nissehuer på","Hold jeres egen pakkeleg, eller lav lige hvad I har lyst til","Vi låner gerne terninger og raflebægre ud","Vi holder åbent til kl. 23"]}
+   ],
+   "menu_h2": "Juleanretningen – 375 kr. pr. kuvert",
+   "menu_price": "375 kr. pr. kuvert",
+   "menu_note": "Til maden sælger vi øl, vin, sodavand og snaps i baren.",
+   "after_menu": [],
+   "overnight_h2": "Har I lyst til at blive natten over?",
+   "overnight_p": "Det er helt frivilligt – men vil I ikke køre hjem, har Klippen Hotel værelser i Gudhjem, og Skt. Jørgens Gaard ligger i samme gård som Jylkat. Sæt bare kryds i formularen, så hjælper vi.",
+   "form_id": "julefrokost-formular",
+   "form_type": "Julefrokost",
+   "fields": [
+    ["full_name","text","Navn",true],["phone","tel","Telefon",true],["submitter_email","email","E-mail",true],
+    ["preferred_date","date-select","Ønsket dato",true],["preferred_time","text","Ca. tidspunkt",false],["guests","number","Antal personer",true],
+    ["overnight","radio","Kunne I tænke jer overnatning?",false,["Ja","Nej"]],
+    ["message","textarea","Besked (valgfri)",false]
+   ],
+   "after_form": "Vi vender tilbage hurtigst muligt og bekræfter jeres bord. Du kan også ringe på <a href=\"tel:+4531688829\">31 68 88 29</a> eller skrive til <a href=\"mailto:info@jylkat-bar.dk\">info@jylkat-bar.dk</a>."
+  },
+  "julefrokost-firma": {
+   "title": "Firmajulefrokost i Gudhjem på Jylkat | Juleanretning 300 kr. ekskl. moms",
+   "desc": "Hold firmajulefrokost i juleteltet på Jylkat ved Gudhjem Havn. Juleanretning til 300 kr. pr. kuvert ekskl. moms, drinkspakker efter behov og faktura til firmaet. Kun 15 datoer.",
+   "kicker": "JULEFROKOST FOR ARBEJDSPLADSEN · GUDHJEM",
+   "h1": "Firmajulefrokost på Jylkat i Gudhjem",
+   "lead": "Juleanretning, julemusik og et lunt juletelt ved havnen. 300 kr. pr. kuvert ekskl. moms – og kun 15 datoer i år.",
+   "hero": "img_wide2", "tent_img": "img_wide1",
+   "lists": [
+    {"h2":"Til både små og store selskaber","p":"","items":["Er I mange? Så kan I få hele stedet for jer selv.","Er I færre? Så får I jeres eget bord i et blandet selskab med andre julefrokoster – det giver ekstra god stemning.","Vil I holde det en dag, hvor vi normalt har lukket? Kontakt os, så finder vi en løsning."]},
+    {"h2":"Stemningen","p":"","img":"img_lamps","items":["Julemusik, juletræ og pynt – vi har pyntet overdrevet op","Personalet har nissehuer på","Plads til jeres egen pakkeleg, taler eller konkurrencer","Vi låner gerne terninger og raflebægre ud","Vi holder åbent til kl. 23"]}
+   ],
+   "menu_h2": "Juleanretningen – 300 kr. ekskl. moms",
+   "menu_price": "300 kr. pr. kuvert ekskl. moms",
+   "menu_note": "",
+   "after_menu": [
+    {"h2":"Drinkspakker efter jeres behov","p":"Vi sælger øl, vin, sodavand og snaps i baren. Vil I have styr på drikkevarerne, designer vi en drinkspakke til jer – for et par timer eller hele aftenen. Fortæl os, hvad I ønsker, så kommer vi med et forslag, der passer til jeres selskab og budget."},
+    {"h2":"Faktura til firmaet","p":"Selvfølgelig. Vi sender en faktura til virksomheden – skriv bare firmanavnet i forespørgslen.","btn":true}
+   ],
+   "overnight_h2": "Overnatning, hvis I har lyst",
+   "overnight_p": "Det er helt frivilligt, men vil nogen af jer blive natten over, har Klippen Hotel værelser i Gudhjem, og Skt. Jørgens Gaard ligger i samme gård som Jylkat.",
+   "form_id": "julefrokost-firma-formular",
+   "form_type": "Firmajulefrokost",
+   "fields": [
+    ["company","text","Firma",true],["full_name","text","Kontaktperson",true],["phone","tel","Telefon",true],["submitter_email","email","E-mail",true],
+    ["preferred_date","date-select","Ønsket dato",true],["guests","number","Antal personer",true],
+    ["exclusive_venue","radio","Ønsker I hele stedet for jer selv?",false,["Ja","Nej","Ved ikke"]],
+    ["drinks_package","radio","Interesseret i en drinkspakke?",false,["Ja","Nej","Måske"]],
+    ["overnight","radio","Kunne nogen tænke sig overnatning?",false,["Ja","Nej"]],
+    ["message","textarea","Besked (valgfri)",false]
+   ],
+   "after_form": "Vi vender tilbage hurtigst muligt med et forslag. Ring på <a href=\"tel:+4531688829\">31 68 88 29</a> eller skriv til <a href=\"mailto:info@jylkat-bar.dk\">info@jylkat-bar.dk</a>."
+  }
+ }
+}

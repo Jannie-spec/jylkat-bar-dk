@@ -1,0 +1,16 @@
+{
+ "slug": "kontakt",
+ "title": {"da":"Kontakt - Jylkat Bar","en":"Contact - Jylkat Bar","de":"Kontakt - Jylkat Bar","sv":"Kontakt - Jylkat Bar"},
+ "desc": {"da":"Kontakt Jylkat ved Gudhjem Havn på Bornholm. Find åbningstider, adresse og telefonnummer, og skriv til os via kontaktformularen.","en":"Contact Jylkat by Gudhjem Harbour, Bornholm. Find opening hours, address and phone number, or write to us using the contact form.","de":"Kontaktieren Sie Jylkat am Hafen von Gudhjem auf Bornholm. Finden Sie Öffnungszeiten, Adresse und Telefonnummer, oder schreiben Sie uns.","sv":"Kontakta Jylkat vid Gudhjem hamn på Bornholm. Hitta öppettider, adress och telefonnummer, eller skriv till oss via kontaktformuläret."},
+ "kicker": {"da":"KONTAKT","en":"CONTACT","de":"KONTAKT","sv":"KONTAKT"},
+ "h1": {"da":"Skriv til os, eller kig forbi","en":"Write to us, or drop by","de":"Schreiben Sie uns, oder schauen Sie vorbei","sv":"Skriv till oss, eller kom förbi"},
+ "form_h2": {"da":"Send os en besked","en":"Send us a message","de":"Senden Sie uns eine Nachricht","sv":"Skicka ett meddelande"},
+ "fields": {
+  "full_name": {"da":"Navn","en":"Name","de":"Name","sv":"Namn"},
+  "email": {"da":"Email","en":"Email","de":"E-Mail","sv":"E-post"},
+  "phone": {"da":"Telefon (valgfrit)","en":"Phone (optional)","de":"Telefon (optional)","sv":"Telefon (valfritt)"},
+  "message": {"da":"Besked","en":"Message","de":"Nachricht","sv":"Meddelande"},
+  "submit": {"da":"Send besked","en":"Send message","de":"Nachricht senden","sv":"Skicka meddelande"},
+  "thanks": {"da":"Tak for din besked! Vi vender tilbage hurtigst muligt.","en":"Thank you for your message! We'll get back to you as soon as possible.","de":"Danke für Ihre Nachricht! Wir melden uns so schnell wie möglich.","sv":"Tack för ditt meddelande! Vi återkommer så snart som möjligt."}
+ }
+}

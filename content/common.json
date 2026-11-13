@@ -1,0 +1,53 @@
+{
+ "nav": [
+  ["menukort",{"da":"Menukort","en":"Menu","de":"Speisekarte","sv":"Meny"}],
+  ["om-baren",{"da":"Om baren","en":"About","de":"Über uns","sv":"Om baren"}],
+  ["galleri",{"da":"Galleri","en":"Gallery","de":"Galerie","sv":"Galleri"}],
+  ["bordbestilling",{"da":"Book bord","en":"Book a table","de":"Tisch buchen","sv":"Boka bord"}],
+  ["blog",{"da":"Blog","en":"Blog","de":"Blog","sv":"Blogg"}],
+  ["kontakt",{"da":"Kontakt","en":"Contact","de":"Kontakt","sv":"Kontakt"}],
+  ["GIFT",{"da":"Gavekort","en":"Gift cards","de":"Gutscheine","sv":"Presentkort"}]
+ ],
+ "gift_url": "https://order.lifepeaks.dk/klippen",
+ "cta": {"da":"Book et bord","en":"Book a table","de":"Tisch buchen","sv":"Boka ett bord"},
+ "home_label": {"da":"Jylkat Bar – til forsiden","en":"Jylkat Bar – home","de":"Jylkat Bar – Startseite","sv":"Jylkat Bar – startsidan"},
+ "menu_label": {"da":"Menu","en":"Menu","de":"Menü","sv":"Meny"},
+ "address": "Ejnar Mikkelsensvej 14, 3760 Gudhjem",
+ "phone": "31 68 88 29", "phone_tel": "+4531688829", "email": "info@jylkat-bar.dk",
+ "instagram": "https://www.instagram.com/jylkat",
+ "facebook": "https://www.facebook.com/profile.php?id=61590993115309",
+ "tripadvisor": "https://www.tripadvisor.dk/Restaurant_Review-g1949996-d34529745-Reviews-Jylkat-Gudhjem_Bornholm.html",
+ "lbl": {
+  "address": {"da":"Adresse","en":"Address","de":"Adresse","sv":"Adress"},
+  "hours": {"da":"Åbningstider","en":"Opening hours","de":"Öffnungszeiten","sv":"Öppettider"},
+  "phonemail": {"da":"Telefon & mail","en":"Phone & email","de":"Telefon & E-Mail","sv":"Telefon och e-post"},
+  "map_btn": {"da":"Vis kort","en":"Show map","de":"Karte anzeigen","sv":"Visa karta"},
+  "map_note": {"da":"Kortet hentes fra Google Maps, når du klikker.","en":"The map is loaded from Google Maps when you click.","de":"Die Karte wird beim Klicken von Google Maps geladen.","sv":"Kartan hämtas från Google Maps när du klickar."},
+  "map_link": {"da":"Åbn i Google Maps","en":"Open in Google Maps","de":"In Google Maps öffnen","sv":"Öppna i Google Maps"},
+  "map_title": {"da":"Kort over Jylkat Bar i Gudhjem","en":"Map of Jylkat Bar in Gudhjem","de":"Karte von Jylkat Bar in Gudhjem","sv":"Karta över Jylkat Bar i Gudhjem"}
+ },
+ "hours": {
+  "da":"10. oktober – 1. november: alle dage kl. 12–21. 2.–26. november: lukket, arrangementer efter aftale. 27. november – 20. december: torsdag til søndag kl. 12–21. Fra 21. december: efter aftale.",
+  "en":"10 October – 1 November: open every day 12–21. 2–26 November: closed, events by arrangement. 27 November – 20 December: Thursday to Sunday 12–21. From 21 December: by arrangement.",
+  "de":"10. Oktober – 1. November: täglich geöffnet 12–21 Uhr. 2.–26. November: geschlossen, Veranstaltungen nach Vereinbarung. 27. November – 20. Dezember: Donnerstag bis Sonntag 12–21 Uhr. Ab 21. Dezember: nach Vereinbarung.",
+  "sv":"10 oktober – 1 november: öppet alla dagar 12–21. 2–26 november: stängt, evenemang efter överenskommelse. 27 november – 20 december: torsdag till söndag 12–21. Från 21 december: efter överenskommelse."
+ },
+ "hours_ld": [
+  {"days":["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],"opens":"12:00","closes":"21:00","from":"2026-10-10","to":"2026-11-01"},
+  {"days":["Thursday","Friday","Saturday","Sunday"],"opens":"12:00","closes":"21:00","from":"2026-11-27","to":"2026-12-20"}
+ ],
+ "foot": {
+  "tagline": {"da":"På havnen i Gudhjem, med udsigt over vandet og en drink i hånden. Åbent når solen står lavt.","en":"On the harbour in Gudhjem, with a view over the water and a drink in hand. Open when the sun hangs low.","de":"Am Hafen von Gudhjem, mit Blick übers Wasser und einem Drink in der Hand. Geöffnet, wenn die Sonne tief steht.","sv":"På hamnen i Gudhjem, med utsikt över vattnet och en drink i handen. Öppet när solen står lågt."},
+  "shortcuts": {"da":"Genveje","en":"Shortcuts","de":"Kurzlinks","sv":"Genvägar"},
+  "find": {"da":"Find os","en":"Find us","de":"So finden Sie uns","sv":"Hitta oss"},
+  "contact": {"da":"Kontakt","en":"Contact","de":"Kontakt","sv":"Kontakt"},
+  "follow": {"da":"Følg os","en":"Follow us","de":"Folgen Sie uns","sv":"Följ oss"},
+  "rights": {"da":"Alle rettigheder forbeholdes.","en":"All rights reserved.","de":"Alle Rechte vorbehalten.","sv":"Alla rättigheter förbehållna."},
+  "part": {"da":"Jylkat er en del af <a href=\"https://www.hotelklippen.com\">Klippen Hotel</a> i Gudhjem.","en":"Jylkat is part of <a href=\"https://www.hotelklippen.com/en\">Klippen Hotel</a> in Gudhjem.","de":"Jylkat gehört zum <a href=\"https://www.hotelklippen.com/de\">Klippen Hotel</a> in Gudhjem.","sv":"Jylkat är en del av <a href=\"https://www.hotelklippen.com/sv\">Klippen Hotel</a> i Gudhjem."}
+ },
+ "logo": "/media/2026/09/jylkat20logo20orange20paCC8A20sort20baggrund20.png",
+ "logo_white": "/media/2026/09/jylkat20logo20hvis20paCC8A20sort20-1.png",
+ "og_image": "/media/2026/09/Jylkat20paCC8A20en20sommerdag20.jpg",
+ "form_privacy": {"da":"Vi bruger kun dine oplysninger til at svare dig og håndtere din bestilling.","en":"We only use your details to reply to you and handle your booking.","de":"Wir verwenden Ihre Angaben nur, um Ihnen zu antworten und Ihre Reservierung zu bearbeiten.","sv":"Vi använder bara dina uppgifter för att svara dig och hantera din bokning."},
+ "notfound": {"da":["Siden findes ikke","Prøv forsiden eller menukortet."],"en":["Page not found","Try the front page or the menu."],"de":["Seite nicht gefunden","Versuchen Sie die Startseite oder die Speisekarte."],"sv":["Sidan finns inte","Prova startsidan eller menyn."]}
+}

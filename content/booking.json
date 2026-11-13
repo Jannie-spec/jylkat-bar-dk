@@ -1,0 +1,23 @@
+{
+ "slug": "bordbestilling",
+ "title": {"da":"Book bord | Jylkat Bar i Gudhjem, Bornholm","en":"Book a table | Jylkat Bar in Gudhjem, Bornholm","de":"Tisch reservieren | Jylkat Bar in Gudhjem, Bornholm","sv":"Boka bord | Jylkat Bar i Gudhjem, Bornholm"},
+ "desc": {"da":"Book bord hos Jylkat ved Gudhjem Havn på Bornholm. Vælg dato og tid online, og nyd cocktails, vin og barmad med havudsigt.","en":"Book a table at Jylkat by Gudhjem Harbour, Bornholm. Pick a date and time online, and enjoy cocktails, wine and bar food with a sea view.","de":"Reservieren Sie einen Tisch bei Jylkat am Hafen von Gudhjem auf Bornholm. Wählen Sie Datum und Uhrzeit online und genießen Sie Meerblick.","sv":"Boka bord hos Jylkat vid Gudhjem hamn på Bornholm. Välj datum och tid online, och njut av cocktails, vin och barmat med havsutsikt."},
+ "img": "/media/2026/09/IMG_2033-scaled.jpeg",
+ "alt": {"da":"Udeservering ved havnen om aftenen","en":"Outdoor seating by the harbour in the evening","de":"Außenbereich am Hafen am Abend","sv":"Uteservering vid hamnen på kvällen"},
+ "kicker": {"da":"BORDBESTILLING","en":"TABLE BOOKING","de":"TISCHRESERVIERUNG","sv":"BORDSBOKNING"},
+ "h1": {"da":"Book bord hos Jylkat","en":"Secure a table with a view","de":"Sichern Sie sich einen Tisch mit Aussicht","sv":"Boka bord hos Jylkat"},
+ "intro": {"da":"Vi har næsten altid plads. Men vil du være sikker på at få et bord, kan du sende en bordbestilling her, så bekræfter vi den hurtigst muligt.","en":"We almost always have room. But if you want to be sure of a table, send us a booking request here and we'll confirm it as soon as possible.","de":"Wir haben fast immer Platz. Wenn Sie aber sicher einen Tisch haben möchten, senden Sie uns hier eine Tischreservierung, und wir bestätigen sie so schnell wie möglich.","sv":"Vi har nästan alltid plats. Men vill du vara säker på att få ett bord kan du skicka en bordsbokning här, så bekräftar vi den så snart som möjligt."},
+ "fields": {
+  "full_name": {"da":"Navn","en":"Name","de":"Name","sv":"Namn"},
+  "phone": {"da":"Telefon","en":"Phone","de":"Telefon","sv":"Telefon"},
+  "email": {"da":"Email","en":"Email","de":"E-Mail","sv":"E-post"},
+  "date": {"da":"Dato","en":"Date","de":"Datum","sv":"Datum"},
+  "time": {"da":"Tidspunkt","en":"Time","de":"Uhrzeit","sv":"Tid"},
+  "guests": {"da":"Antal personer","en":"Number of guests","de":"Anzahl der Personen","sv":"Antal personer"},
+  "message": {"da":"Besked (valgfrit)","en":"Message (optional)","de":"Nachricht (optional)","sv":"Meddelande (valfritt)"},
+  "message_ph": {"da":"Fx allergier, særlige ønsker eller anledning","en":"E.g. allergies, special requests or occasion","de":"Z. B. Allergien, besondere Wünsche oder Anlass","sv":"T.ex. allergier, särskilda önskemål eller anledning"},
+  "submit": {"da":"Send bordbestilling","en":"Send table booking","de":"Tischreservierung senden","sv":"Skicka bordsbokning"},
+  "thanks": {"da":"Tak! Vi har modtaget din bordbestilling og bekræfter den hurtigst muligt.","en":"Thank you! We have received your booking request and will confirm it as soon as possible.","de":"Danke! Wir haben Ihre Tischreservierung erhalten und bestätigen sie so schnell wie möglich.","sv":"Tack! Vi har tagit emot din bordsbokning och bekräftar den så snart som möjligt."},
+  "error": {"da":"Beklager, bestillingen kunne ikke sendes. Ring på 31 68 88 29 eller skriv til info@jylkat-bar.dk.","en":"Sorry, the booking could not be sent. Please call 31 68 88 29 or email info@jylkat-bar.dk.","de":"Leider konnte die Reservierung nicht gesendet werden. Bitte rufen Sie 31 68 88 29 an oder schreiben Sie an info@jylkat-bar.dk.","sv":"Tyvärr kunde bokningen inte skickas. Ring 31 68 88 29 eller skriv till info@jylkat-bar.dk."}
+ }
+}

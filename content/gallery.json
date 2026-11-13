@@ -1,0 +1,28 @@
+{
+ "slug": "galleri",
+ "title": {"da":"Galleri - Jylkat Bar","en":"Gallery - Jylkat Bar","de":"Galerie - Jylkat Bar","sv":"Galleri - Jylkat Bar"},
+ "desc": {"da":"Se billeder fra Jylkat, baren ved Gudhjem Havn på Bornholm, med cocktails, hygge på terrassen og den smukke havudsigt.","en":"See photos from Jylkat, the bar by Gudhjem Harbour, Bornholm: cocktails, cosy evenings on the terrace and the beautiful sea view.","de":"Sehen Sie Fotos von Jylkat, der Bar am Hafen von Gudhjem auf Bornholm, mit Cocktails, gemütlichen Abenden auf der Terrasse und Meerblick.","sv":"Se bilder från Jylkat, baren vid Gudhjem hamn på Bornholm, med cocktails, mys på terrassen och den vackra havsutsikten."},
+ "kicker": {"da":"GALLERI","en":"GALLERY","de":"GALERIE","sv":"GALLERI"},
+ "h1": {"da":"Stemningen på Jylkat","en":"The mood at Jylkat","de":"Die Stimmung bei Jylkat","sv":"Stämningen på Jylkat"},
+ "imgs": [
+  ["/media/2026/09/Jylkat20aften20hygge20.jpg","Gæster hygger sig på terrassen ved solnedgang"],
+  ["/media/2026/09/Jylkat20paCC8A20en20sommerdag20.jpg","Udeservering på Jylkat Bar en solrig sommerdag"],
+  ["/media/2026/09/skinke20C3B8l20og20brC3B8d201.0-scaled.jpg","Øl fra Svaneke serveret med skinke og nybagt brød"],
+  ["/media/2026/09/gog203.0-scaled.jpg","Cocktail fra Wild Distillery ved havnepromenaden"],
+  ["/media/2026/09/skinke20rose20og20brC3B8d201.0-scaled.jpg","To glas rosévin serveret med skinke og nybagt brød"],
+  ["/media/2026/09/hummer20hotdog206.0-scaled.jpg","Hummerdog med hummerhaler, dild og citron"],
+  ["/media/2026/09/crevette20rose20og20brC3B8d205.0-scaled.jpg","Rejer, dild og citron serveret med brød og rosévin"],
+  ["/media/2026/09/loCC88jrum20og20blinis205.0-scaled.jpg","Blinis med løjrom, dild og creme fraiche"],
+  ["/media/2026/09/blinis20og20loCC88jrum20bar-scaled.jpg","Tæt på blinis med løjrom ved baren"],
+  ["/media/2026/09/IMG_2033-scaled.jpeg","Aftenstemning på terrassen ved Jylkat"],
+  ["/media/2026/09/Jyldog-scaled.jpeg","Jyldog med rødløg og spiselige blomster"],
+  ["/media/2026/09/IMG_2930-scaled.jpeg","Gæster foran Jylkat Bar med havnestemning"],
+  ["/media/2026/09/IMG_2753-scaled.jpeg","Pølser på grillen ved Jylkat Bar"],
+  ["/media/2026/09/IMG_2031-scaled.jpeg","Aftenstemning ved Jylkat Bar med stokroser og lyskæder"],
+  ["/media/2026/09/IMG_2120-scaled.jpeg","Et glas øl med havudsigt ved Jylkat Bar"],
+  ["/media/2026/09/IMG_2034-scaled.jpeg","Gæster i aftenstemning ved Jylkat Bar"],
+  ["/media/2026/09/IMG_2122-scaled.jpeg","To gæster på solrig terrasse ved Jylkat Bar"],
+  ["/media/2026/10/jylkat-hokkaidosuppe-2.jpg","Hokkaidosuppe på terrassen hos Jylkat med udsigt over Gudhjem Havn"],
+  ["/media/2026/10/jylkat-dirty-cowboy-3.jpg","Dirty Cowboy – smørstegt toast med roastbeef, karamelliserede løg og smeltet ost, serveret med kartoffelchips på Jylkat i Gudhjem"]
+ ]
+}

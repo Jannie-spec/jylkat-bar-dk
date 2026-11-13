@@ -1,0 +1,52 @@
+# jylkat-bar.dk – statisk side (erstatter Aida)
+Options -Indexes -MultiViews
+DirectorySlash Off
+ErrorDocument 404 /404.html
+
+RewriteEngine on
+
+# www -> uden www, http -> https
+RewriteCond %{HTTP_HOST} ^www\.jylkat-bar\.dk$ [NC]
+RewriteRule ^(.*)$ https://jylkat-bar.dk/$1 [R=301,L]
+RewriteCond %{HTTPS} !=on
+RewriteCond %{HTTP:X-Forwarded-Proto} !=https
+RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+
+# Slettede blogindlæg sendes videre til /blog (fra den gamle side)
+RewriteRule ^blog/(solnedgangsjazz-pa-kajen-hver-fredag-i-juli|ny-saeson-nyt-cocktailkort-pa-jylkat-bar|sadan-blander-vi-den-perfekte-drink-med-havudsigt)/?$ https://jylkat-bar.dk/blog [R=301,L]
+# Gamle Aida-adresser
+RewriteRule ^__wsb/ - [G,L]
+RewriteRule ^(cookiepolitik|privatlivspolitik)/?$ https://jylkat-bar.dk/ [R=301,L]
+
+# Adresser med .html eller skråstreg til sidst -> den rene adresse
+RewriteCond %{THE_REQUEST} \s/+(.+?)\.html[\s?]
+RewriteRule ^ /%1 [R=301,L,NE]
+RewriteCond %{THE_REQUEST} \s/+index\.html[\s?]
+RewriteRule ^ / [R=301,L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(.+)/$ /$1 [R=301,L]
+
+# /en, /de, /sv -> mappens index.html
+RewriteCond %{DOCUMENT_ROOT}/$1/index.html -f
+RewriteRule ^(en|de|sv)$ /$1/index.html [L]
+# /menukort -> menukort.html
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{DOCUMENT_ROOT}/$1.html -f
+RewriteRule ^(.+)$ /$1.html [L]
+
+# Interne filer
+RewriteRule ^data/ - [F,L]
+
+<IfModule mod_headers.c>
+  <FilesMatch "\.(woff2|css|js)$">
+    Header set Cache-Control "public, max-age=2592000"
+  </FilesMatch>
+  <FilesMatch "\.(jpe?g|png|webp)$">
+    Header set Cache-Control "public, max-age=2592000"
+  </FilesMatch>
+  Header always set X-Content-Type-Options "nosniff"
+  Header always set Referrer-Policy "strict-origin-when-cross-origin"
+</IfModule>
+<IfModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE text/html text/css application/javascript image/svg+xml application/xml
+</IfModule>

@@ -5,6 +5,9 @@ ErrorDocument 404 /404.html
 
 RewriteEngine on
 
+# one.com formulartjeneste (bruges af formularerne) må ikke omskrives
+RewriteRule ^_wp_/ - [L]
+
 # www -> uden www, http -> https
 RewriteCond %{HTTP_HOST} ^www\.jylkat-bar\.dk$ [NC]
 RewriteRule ^(.*)$ https://jylkat-bar.dk/$1 [R=301,L]

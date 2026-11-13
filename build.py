@@ -18,7 +18,7 @@ PREVIEW = '--preview' in sys.argv or TEST
 BASE = '/ny-side' if TEST else ''
 OUT = os.path.join(ROOT, 'test' if TEST else 'preview' if PREVIEW else 'dist')
 MEDIA = '' if (TEST or not PREVIEW) else DOMAIN   # billeder ligger i /media på serveren
-FORM_ACTION = BASE + '/send.php'
+FORM_ACTION = '/_wp_/wp-json/wsb20/v1/forms/submit'
 OG_LOCALE = {'da': 'da_DK', 'en': 'en_GB', 'de': 'de_DE', 'sv': 'sv_SE'}
 e = lambda s: html.escape(s or '', quote=True)
 import hashlib
@@ -287,8 +287,11 @@ def field(name, typ, label, req, opts=None, ph='', full=False):
     return f'<div{cls}><label for="{fid}">{e(label)}</label>{ctl}</div>'
 
 
+FORM_KEYS = {'Bordbestilling': 'jylkat-bordbestilling', 'Kontakt': 'jylkat-kontakt', 'Julefrokost': 'jylkat-julefrokost', 'Firmajulefrokost': 'jylkat-julefrokost-firma'}
+
+
 def form(kind, lang, fields_html, submit, thanks, error, fid='form'):
-    return f'''<form class="f" id="{fid}" action="{FORM_ACTION}" method="post" data-ajax>
+    return f'''<form class="f" id="{fid}" action="{FORM_ACTION}" method="post" data-ajax data-key="{FORM_KEYS[kind]}">
 <input type="hidden" name="form" value="{e(kind)}"><input type="hidden" name="lang" value="{lang}">
 <div class="hp" aria-hidden="true"><label>Firma<input type="text" name="_hp_company" tabindex="-1" autocomplete="off"></label></div>
 {fields_html}
@@ -369,6 +372,12 @@ def blog_post(p):
     return page('da', 'blog/' + p['slug'], p['title'] + ' - Jylkat Bar', p['desc'], body, langs=['da'], ld=ld, og_img=p['img'], current='blog')
 
 
+def iso(d):
+    m = re.match(r'\S+ (\d+)\. (\w+)', d)
+    mon = {'nov': 11, 'dec': 12}[m.group(2)]
+    return f'2026-{mon:02d}-{int(m.group(1)):02d}'
+
+
 def julefrokost(slug):
     J = JUL
     P = J['pages'][slug]
@@ -388,6 +397,7 @@ def julefrokost(slug):
         name, typ, label, req = f[:4]
         if typ == 'date-select':
             fields.append(field(name, 'select', label, req, opts=[('', 'Vælg en dato')] + [(d, d) for d in J['dates']]))
+            fields[-1] = re.sub(r'<option value="([^"]+)"', lambda m: f'<option data-iso="{iso(html.unescape(m.group(1)))}" value="{m.group(1)}"', fields[-1])
         elif typ == 'radio':
             fields.append(field(name, 'radio', label, req, opts=f[4]))
         else:
@@ -402,7 +412,7 @@ def julefrokost(slug):
 {after}
 <section class="sec sage"><div class="wrap narrow"><h2>{e(P['overnight_h2'])}</h2><p>{e(P['overnight_p'])}</p><div class="btns"><a class="btn ghost" href="{J['overnight_url']}">Book overnatning</a></div></div></section>
 <section class="sec dark"><div class="wrap"><h2>{e(J['dates_h2'])}</h2><p>{e(J['dates_p'])}</p>
-<div class="chips">{''.join(f'<a href="#{fid}" data-date="{e(d)}">{e(d)}</a>' for d in J['dates'])}</div>
+<div class="chips">{''.join(f'<a href="#{fid}" data-date="{e(d)}" data-iso="{iso(d)}">{e(d)}</a>' for d in J['dates'])}</div>
 <img class="wide" src="{img(J[P['tent_img']])}" alt="{e(J['img_alt'])}" loading="lazy"></div></section>
 <section class="sec mist" id="{fid}"><div class="wrap narrow"><h2>Forespørg på jeres dato</h2>
 {form(P['form_type'], 'da', ''.join(fields), 'Send forespørgsel', 'Tak! Vi har modtaget jeres forespørgsel og vender tilbage hurtigst muligt.', t(BOOK['fields']['error'], 'da'), fid='f-' + fid)}
@@ -455,11 +465,10 @@ def main():
     write('sitemap.xml', sitemap())
     write('robots.txt', f'User-agent: *\nAllow: /\n\nSitemap: {DOMAIN}/sitemap.xml\n')
     if TEST:
-        for f in ['.htaccess', 'sitemap.xml', 'robots.txt', 'send.php']:
+        for f in ['.htaccess', 'sitemap.xml', 'robots.txt']:
             os.remove(os.path.join(OUT, f))
     elif PREVIEW:
         os.remove(os.path.join(OUT, '.htaccess')) if os.path.exists(os.path.join(OUT, '.htaccess')) else None
-        os.remove(os.path.join(OUT, 'send.php')) if os.path.exists(os.path.join(OUT, 'send.php')) else None
     n = sum(len(f) for _, _, f in os.walk(OUT))
     print(f'{n} filer i {OUT}')
 

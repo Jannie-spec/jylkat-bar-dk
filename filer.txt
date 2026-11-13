@@ -30,7 +30,6 @@ dist/kontakt.html
 dist/menukort.html
 dist/om-baren.html
 dist/robots.txt
-dist/send.php
 dist/sitemap.xml
 dist/sv/bordbestilling.html
 dist/sv/galleri.html

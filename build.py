@@ -132,7 +132,7 @@ def page(lang, slug, title, desc, body, langs=LANGS, noindex=False, ld=None, og_
 <meta property="og:url" content="{canon}"><meta property="og:image" content="{e(og)}"><meta property="og:locale" content="{OG_LOCALE[lang]}">
 <meta name="twitter:card" content="summary_large_image">
 <link rel="icon" href="{img(COMMON['logo'])}">
-<link rel="preload" href="{BASE}/assets/fonts/fraunces.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="{BASE}/assets/fonts/source-serif.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="{BASE}/assets/site.css">
 {lds}{extra_head}
 </head>

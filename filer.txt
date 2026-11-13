@@ -1,9 +1,7 @@
 dist/.htaccess
 dist/404.html
-dist/assets/fonts/fraunces.woff2
-dist/assets/fonts/inter-400.woff2
-dist/assets/fonts/inter-500.woff2
-dist/assets/fonts/inter-600.woff2
+dist/assets/fonts/source-sans.woff2
+dist/assets/fonts/source-serif.woff2
 dist/assets/site.css
 dist/assets/site.js
 dist/blog.html
@@ -41,10 +39,8 @@ dist/sv/kontakt.html
 dist/sv/menukort.html
 dist/sv/om-baren.html
 ny-side/404.html
-ny-side/assets/fonts/fraunces.woff2
-ny-side/assets/fonts/inter-400.woff2
-ny-side/assets/fonts/inter-500.woff2
-ny-side/assets/fonts/inter-600.woff2
+ny-side/assets/fonts/source-sans.woff2
+ny-side/assets/fonts/source-serif.woff2
 ny-side/assets/site.css
 ny-side/assets/site.js
 ny-side/blog.html

@@ -25,6 +25,9 @@ import hashlib
 VER = hashlib.md5(b''.join(open(os.path.join(ROOT, 'site/assets', f), 'rb').read() for f in ['site.css', 'site.js'])).hexdigest()[:8]
 
 
+OWNER = {'da': 'Drevet af', 'en': 'Run by', 'de': 'Geführt von', 'sv': 'Drivs av'}
+
+
 def t(d, lang):
     return d.get(lang) or d.get('da') if isinstance(d, dict) else d
 
@@ -89,7 +92,7 @@ def footer(lang):
 <div><h4>{e(t(F['find'], lang))}</h4><p>Ejnar Mikkelsensvej 14<br>3760 Gudhjem<br>Bornholm</p></div>
 <div><h4>{e(t(F['contact'], lang))}</h4><p><a href="tel:{COMMON['phone_tel']}">{COMMON['phone']}</a><br><a href="mailto:{COMMON['email']}">{COMMON['email']}</a></p></div>
 <div><h4>{e(t(F['follow'], lang))}</h4><ul><li><a href="{e(COMMON['instagram'])}" rel="me">Instagram</a></li><li><a href="{e(COMMON['facebook'])}" rel="me">Facebook</a></li><li><a href="{e(COMMON['tripadvisor'])}">Tripadvisor</a></li></ul></div>
-</div><div class="copy">© {date.today().year} Jylkat Bar. {e(t(F['rights'], lang))}</div></div></footer>'''
+</div><div class="copy">© {date.today().year} Jylkat Bar. {e(t(F['rights'], lang))} {OWNER.get(lang, OWNER['da'])} <a href="https://janniebuchthorborg.dk/">Jannie &amp; Martin Buch Thorborg</a>.</div></div></footer>'''
 
 
 def local_business(lang):

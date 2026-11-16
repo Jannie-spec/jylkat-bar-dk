@@ -57,7 +57,7 @@ def nav_html(lang, current):
     items = []
     for slug, label in COMMON['nav']:
         if slug == 'GIFT':
-            items.append(f'<a href="{COMMON["gift_url"]}">{e(t(label, lang))}</a>')
+            items.append(f'<a href="{COMMON["gift_url"]}&amp;lang={lang}">{e(t(label, lang))}</a>')
             continue
         target = href('da' if slug == 'blog' else lang, slug)
         cur = ' aria-current="page"' if slug == current else ''
@@ -85,7 +85,7 @@ def footer(lang):
 <li><a href="{href(lang, 'menukort')}">{e(t(COMMON['nav'][0][1], lang))}</a></li>
 <li><a href="{href(lang, 'bordbestilling')}">{e(t(COMMON['nav'][3][1], lang))}</a></li>
 <li><a href="{href('da', 'blog')}">{e(t(COMMON['nav'][4][1], lang))}</a></li>
-<li><a href="{COMMON['gift_url']}">{e(t(COMMON['nav'][6][1], lang))}</a></li></ul></div>
+<li><a href="{COMMON['gift_url']}&amp;lang={lang}">{e(t(COMMON['nav'][6][1], lang))}</a></li></ul></div>
 <div><h4>{e(t(F['find'], lang))}</h4><p>Ejnar Mikkelsensvej 14<br>3760 Gudhjem<br>Bornholm</p></div>
 <div><h4>{e(t(F['contact'], lang))}</h4><p><a href="tel:{COMMON['phone_tel']}">{COMMON['phone']}</a><br><a href="mailto:{COMMON['email']}">{COMMON['email']}</a></p></div>
 <div><h4>{e(t(F['follow'], lang))}</h4><ul><li><a href="{e(COMMON['instagram'])}" rel="me">Instagram</a></li><li><a href="{e(COMMON['facebook'])}" rel="me">Facebook</a></li><li><a href="{e(COMMON['tripadvisor'])}">Tripadvisor</a></li></ul></div>
@@ -205,7 +205,7 @@ def home(lang):
 <section class="sec mist"><div class="wrap grid g2"><div><p class="kicker">{e(t(H['contact']['kicker'], lang))}</p><h2>{e(t(H['contact']['h2'], lang))}</h2><p>{e(t(H['contact']['text'], lang))}</p>
 {info_block(lang)}<div class="btns"><a class="btn" href="{href(lang, 'kontakt')}">{e(t(H['contact']['btn'], lang))}</a></div></div>{map_block(lang)}</div></section>
 <section class="sec mist" style="padding-top:0"><div class="wrap narrow center"><p class="kicker">{e(t(H['gift']['kicker'], lang))}</p><h2>{e(t(H['gift']['h2'], lang))}</h2><p>{e(t(H['gift']['text'], lang))}</p>
-<div class="btns"><a class="btn" href="{COMMON['gift_url']}">{e(t(H['gift']['btn'], lang))}</a></div></div></section>'''
+<div class="btns"><a class="btn" href="{COMMON['gift_url']}&amp;lang={lang}">{e(t(H['gift']['btn'], lang))}</a></div></div></section>'''
     ld = [local_business(lang)]
     return page(lang, '', t(H['title'], lang), t(H['desc'], lang), body, ld=ld)
 

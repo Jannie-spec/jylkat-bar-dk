@@ -150,6 +150,7 @@ def page(lang, slug, title, desc, body, langs=LANGS, noindex=False, ld=None, og_
 </main>
 {footer(lang)}
 <script src="{BASE}/assets/site.js?v={VER}" defer></script>
+<!-- Cloudflare Web Analytics (cookiefri statistik) --><script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{{"token": "fde538e0332d462ca75672a5019f8004"}}'></script>
 </body>
 </html>
 '''

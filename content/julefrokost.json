@@ -1,10 +1,10 @@
 {
- "dishes": ["Ruths kryddersild fra Christiansø med rødløg","Hummersalat med hummerhaler, dild og grønne asparges","Varmrøget laks med purløg, citron og sprøde radiser","Roastbeef med syltede agurker og hjemmerørt remoulade","Julemedister med frisk rødkålssalat og appelsin","Juledog med confiteret and og syltede rødløg","Surdejsbrød, rugbrød og pisket smør"],
- "dates": ["Tors 27. nov","Fre 28. nov","Lør 29. nov","Tors 3. dec","Fre 4. dec","Lør 5. dec","Søn 6. dec","Tors 10. dec","Fre 11. dec","Lør 12. dec","Søn 13. dec","Tors 17. dec","Fre 18. dec","Lør 19. dec","Søn 20. dec"],
+ "dishes": ["Ruths kryddersild fra Christiansø med rødløg","Hummersalat – hummerhaler i en cremet dressing med dild og grønne asparges","Røget laks med purløg, citron og sprøde radiser","Roastbeef med syltede agurker og hjemmerørt remoulade","Julemedister med rå syltet rødkål med appelsin og valnødder","Jyledog med confiteret and, syltede rødløg, sennepsmayo og brændt sesam","Surdejsbrød, rugbrød og pisket smør"],
+ "dates": ["Fre 27. nov","Lør 28. nov","Søn 29. nov","Man 30. nov","Tirs 1. dec","Ons 2. dec","Tors 3. dec","Fre 4. dec","Lør 5. dec","Søn 6. dec","Man 7. dec","Tirs 8. dec","Ons 9. dec","Tors 10. dec","Fre 11. dec","Lør 12. dec","Søn 13. dec","Man 14. dec","Tirs 15. dec","Ons 16. dec","Tors 17. dec","Fre 18. dec","Lør 19. dec","Søn 20. dec"],
  "tent_h2": "Inde i det lune telt – ude ved havet",
  "tent_p": "Det helt særlige ved Jylkat er, at I sidder lunt og varmt inde i teltet, men stadig føler, at I er ude i naturen. Gennem de klare teltvægge ser I bølgerne slå ind mod molen og stenene ved Gudhjem Havn, mens lyskæderne skinner, og julemusikken spiller. Det er julefrokost med havet lige udenfor.",
- "dates_h2": "Kun 15 datoer i år",
- "dates_p": "Vi serverer juleanretning torsdag til søndag fra 27. november til 20. december. Det giver 15 datoer – og de bedste weekender går først.",
+ "dates_h2": "Juleanretning alle dage til 20. december",
+ "dates_p": "Vi serverer juleanretning alle dage fra 27. november til 20. december. Weekenderne bliver booket først – så vælg jeres dato i god tid.",
  "img_wide1": "/media/2026/10/julefrokost-jylkat-telt-lyskaeder-bred.jpg",
  "img_wide2": "/media/2026/10/julefrokost-jylkat-telt-borde-bred.jpg",
  "img_lamps": "/media/2026/10/julefrokost-jylkat-telt-lamper.jpg",
@@ -13,10 +13,10 @@
  "pages": {
   "julefrokost": {
    "title": "Julefrokost i Gudhjem på Jylkat | Juleanretning 375 kr.",
-   "desc": "Hold julefrokost i juleteltet på Jylkat ved Gudhjem Havn. Juleanretning til 375 kr. pr. kuvert, julemusik og hyggelig stemning. Kun 15 datoer – forespørg på jeres dato.",
+   "desc": "Hold julefrokost i juleteltet på Jylkat ved Gudhjem Havn. Juleanretning til 375 kr. pr. kuvert, julemusik og hyggelig stemning. Alle dage 27. nov.–20. dec. – forespørg på jeres dato.",
    "kicker": "JULEFROKOST · GUDHJEM HAVN",
    "h1": "Julefrokost i juleteltet på Jylkat",
-   "lead": "Saml familien eller vennerne til juleanretning, julemusik og rigtig julefrokoststemning ved Gudhjem Havn. 375 kr. pr. kuvert – og kun 15 datoer i år.",
+   "lead": "Saml familien eller vennerne til juleanretning, julemusik og rigtig julefrokoststemning ved Gudhjem Havn. 375 kr. pr. kuvert – alle dage fra 27. november til 20. december.",
    "hero": "img_wide1", "tent_img": "img_wide2",
    "lists": [
     {"h2":"Sådan bliver jeres julefrokost","p":"I får jeres eget bord i vores lune juletelt. Der sidder også andre selskaber, så der er fuld julefrokoststemning hele aftenen.","items":["Julemusik, juletræ og pynt – og ja, vi har pyntet overdrevet op","Personalet har nissehuer på","Hold jeres egen pakkeleg, eller lav lige hvad I har lyst til","Vi låner gerne terninger og raflebægre ud","Vi holder åbent til kl. 23"]}
@@ -39,13 +39,13 @@
   },
   "julefrokost-firma": {
    "title": "Firmajulefrokost i Gudhjem på Jylkat | Juleanretning 300 kr. ekskl. moms",
-   "desc": "Hold firmajulefrokost i juleteltet på Jylkat ved Gudhjem Havn. Juleanretning til 300 kr. pr. kuvert ekskl. moms, drinkspakker efter behov og faktura til firmaet. Kun 15 datoer.",
+   "desc": "Hold firmajulefrokost i juleteltet på Jylkat ved Gudhjem Havn. Juleanretning til 300 kr. pr. kuvert ekskl. moms, drinkspakker efter behov og faktura til firmaet. Alle dage 27. nov.–20. dec.",
    "kicker": "JULEFROKOST FOR ARBEJDSPLADSEN · GUDHJEM",
    "h1": "Firmajulefrokost på Jylkat i Gudhjem",
-   "lead": "Juleanretning, julemusik og et lunt juletelt ved havnen. 300 kr. pr. kuvert ekskl. moms – og kun 15 datoer i år.",
+   "lead": "Juleanretning, julemusik og et lunt juletelt ved havnen. 300 kr. pr. kuvert ekskl. moms – alle dage fra 27. november til 20. december.",
    "hero": "img_wide2", "tent_img": "img_wide1",
    "lists": [
-    {"h2":"Til både små og store selskaber","p":"","items":["Er I mange? Så kan I få hele stedet for jer selv.","Er I færre? Så får I jeres eget bord i et blandet selskab med andre julefrokoster – det giver ekstra god stemning.","Vil I holde det en dag, hvor vi normalt har lukket? Kontakt os, så finder vi en løsning."]},
+    {"h2":"Til både små og store selskaber","p":"","items":["Er I mange? Så kan I få hele stedet for jer selv.","Er I færre? Så får I jeres eget bord i et blandet selskab med andre julefrokoster – det giver ekstra god stemning.","Vil I holde det efter vores normale åbningstid eller en dag efter 20. december? Kontakt os, så finder vi en løsning."]},
     {"h2":"Stemningen","p":"","img":"img_lamps","items":["Julemusik, juletræ og pynt – vi har pyntet overdrevet op","Personalet har nissehuer på","Plads til jeres egen pakkeleg, taler eller konkurrencer","Vi låner gerne terninger og raflebægre ud","Vi holder åbent til kl. 23"]}
    ],
    "menu_h2": "Juleanretningen – 300 kr. ekskl. moms",

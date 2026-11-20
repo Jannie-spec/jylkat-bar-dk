@@ -223,6 +223,17 @@ def tr_wine(name, lang):
     return name
 
 
+def xmas_html(M, lang):
+    X = M.get('xmas')
+    if not X or date.today().isoformat() > X['until']:
+        return ''
+    items = ''.join(f'<li>{e(t(i, lang))}</li>' for i in X['items'])
+    return (f'<section class="sec mist"><div class="wrap"><p class="kicker">{e(t(X["kicker"], lang))}</p>'
+            f'<div class="menu-list"><div class="mi"><div class="row"><h2>{e(t(X["h2"], lang))}</h2><span class="price">{e(X["price"])}</span></div>'
+            f'<p>{e(t(X["tag"], lang))}</p><ul>{items}</ul></div></div>'
+            f'<div class="btns"><a class="btn" href="{href(lang, "bordbestilling")}">{e(t(X["btn"], lang))}</a></div></div></section>')
+
+
 def menu(lang):
     M = MENU
     food = ''.join(f'<div class="mi"><div class="row"><h3>{e(t(d["name"], lang))}</h3><span class="price">{d["price"]}</span></div><p>{e(t(d["p"], lang))}</p></div>' for d in M['food'])
@@ -240,7 +251,7 @@ def menu(lang):
         cats.append(f'<div class="drinkcat" id="{cid}"><h3>{e(t(c["cat"], lang))}</h3><div class="menu-list">{"".join(items)}</div></div>')
     body = f'''<section class="sec dark pagehead"><div class="wrap"><p class="kicker" style="color:#e5e9e1">{e(t(M['kicker'], lang))}</p><h1>{e(t(M['h1'], lang))}</h1><p class="lead">{e(t(M['intro'], lang))}</p></div></section>
 <section class="sec sage" style="padding-bottom:0"><div class="wrap"><img class="wide" src="{img(M['img'])}" alt="{e(t(M['alt'], lang))}"></div></section>
-<section class="sec sage"><div class="wrap"><p class="kicker">{e(t(M['food_kicker'], lang))}</p><h2>{e(t(M['food_h2'], lang))}</h2><p class="tag">{e(t(M['takeaway'], lang))}</p><div class="menu-list">{food}</div></div></section>
+{xmas_html(M, lang)}<section class="sec sage"><div class="wrap"><p class="kicker">{e(t(M['food_kicker'], lang))}</p><h2>{e(t(M['food_h2'], lang))}</h2><p class="tag">{e(t(M['takeaway'], lang))}</p><div class="menu-list">{food}</div></div></section>
 <section class="sec"><div class="wrap"><p class="kicker">{e(t(M['drinks_kicker'], lang))}</p><h2>{e(t(M['drinks_h2'], lang))}</h2><nav class="tabs">{''.join(tabs)}</nav>{''.join(cats)}
 <div class="btns"><a class="btn" href="{href(lang, 'bordbestilling')}">{e(t(COMMON['cta'], lang))}</a></div></div></section>'''
     ld = [{"@context": "https://schema.org", "@type": "Menu", "name": t(M['h1'], lang), "url": DOMAIN + path(lang, 'menukort'), "inLanguage": lang,

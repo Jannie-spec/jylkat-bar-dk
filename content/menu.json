@@ -1,103 +1,811 @@
 {
  "slug": "menukort",
- "title": {"da":"Menukort | Jylkat Bar i Gudhjem på Bornholm","en":"Menu | Jylkat Bar in Gudhjem on Bornholm","de":"Speisekarte | Jylkat Bar in Gudhjem auf Bornholm","sv":"Meny | Jylkat Bar i Gudhjem på Bornholm"},
- "desc": {"da":"Se menukortet hos Jylkat i Gudhjem: hummerdog, roserejer, små retter, cocktails, vin og lokale bornholmske øl. Alle retter kan også fås som take-away.","en":"See the menu at Jylkat in Gudhjem: lobster dog, rose prawns, small plates, cocktails, wine and local Bornholm beers. All dishes are also available to take away.","de":"Die Speisekarte von Jylkat in Gudhjem: Hummer-Hotdog, Garnelen, kleine Gerichte, Cocktails, Wein und lokale Biere von Bornholm. Alle Gerichte auch zum Mitnehmen.","sv":"Se menyn hos Jylkat i Gudhjem: hummerdog, räkor, små rätter, cocktails, vin och lokal öl från Bornholm. Alla rätter finns också som take-away."},
- "kicker": {"da":"MENUKORT","en":"MENU","de":"SPEISEKARTE","sv":"MENY"},
- "h1": {"da":"Menukort hos Jylkat","en":"Food and drinks at Gudhjem Harbour","de":"Speisen und Drinks am Hafen von Gudhjem","sv":"Meny hos Jylkat"},
- "intro": {"da":"Vores menukort skifter med sæsonen og byder på små retter, snacks, cocktails, vin og lokale bornholmske øl. Alle cocktails blandes i baren efter bestilling. Priser er inklusive moms.","en":"Our menu changes with the season and offers small plates, snacks, cocktails, wine and local Bornholm beers. All cocktails are mixed in the bar to order. Prices include VAT.","de":"Unsere Karte wechselt mit der Saison und bietet kleine Gerichte, Snacks, Cocktails, Wein und lokale bornholmische Biere. Alle Cocktails werden auf Bestellung an der Bar gemixt. Preise inklusive Mehrwertsteuer.","sv":"Vår meny ändras efter säsong och bjuder på små rätter, snacks, cocktails, vin och lokal öl från Bornholm. Alla cocktails blandas i baren vid beställning. Priserna är inklusive moms."},
+ "title": {
+  "da": "Menukort | Jylkat Bar i Gudhjem på Bornholm",
+  "en": "Menu | Jylkat Bar in Gudhjem on Bornholm",
+  "de": "Speisekarte | Jylkat Bar in Gudhjem auf Bornholm",
+  "sv": "Meny | Jylkat Bar i Gudhjem på Bornholm"
+ },
+ "desc": {
+  "da": "Se menukortet hos Jylkat i Gudhjem: hummerdog, roserejer, små retter, cocktails, vin og lokale bornholmske øl. Alle retter kan også fås som take-away.",
+  "en": "See the menu at Jylkat in Gudhjem: lobster dog, rose prawns, small plates, cocktails, wine and local Bornholm beers. All dishes are also available to take away.",
+  "de": "Die Speisekarte von Jylkat in Gudhjem: Hummer-Hotdog, Garnelen, kleine Gerichte, Cocktails, Wein und lokale Biere von Bornholm. Alle Gerichte auch zum Mitnehmen.",
+  "sv": "Se menyn hos Jylkat i Gudhjem: hummerdog, räkor, små rätter, cocktails, vin och lokal öl från Bornholm. Alla rätter finns också som take-away."
+ },
+ "kicker": {
+  "da": "MENUKORT",
+  "en": "MENU",
+  "de": "SPEISEKARTE",
+  "sv": "MENY"
+ },
+ "h1": {
+  "da": "Menukort hos Jylkat",
+  "en": "Food and drinks at Gudhjem Harbour",
+  "de": "Speisen und Drinks am Hafen von Gudhjem",
+  "sv": "Meny hos Jylkat"
+ },
+ "intro": {
+  "da": "Vores menukort skifter med sæsonen og byder på små retter, snacks, cocktails, vin og lokale bornholmske øl. Alle cocktails blandes i baren efter bestilling. Priser er inklusive moms.",
+  "en": "Our menu changes with the season and offers small plates, snacks, cocktails, wine and local Bornholm beers. All cocktails are mixed in the bar to order. Prices include VAT.",
+  "de": "Unsere Karte wechselt mit der Saison und bietet kleine Gerichte, Snacks, Cocktails, Wein und lokale bornholmische Biere. Alle Cocktails werden auf Bestellung an der Bar gemixt. Preise inklusive Mehrwertsteuer.",
+  "sv": "Vår meny ändras efter säsong och bjuder på små rätter, snacks, cocktails, vin och lokal öl från Bornholm. Alla cocktails blandas i baren vid beställning. Priserna är inklusive moms."
+ },
  "img": "/media/2026/09/crevette20rose20og20brC3B8d205.0-scaled.jpg",
- "alt": {"da":"Rejer, dild og citron serveret med brød og rosévin på Jylkat Bar","en":"Shrimp, dill and lemon served with bread and rosé wine at Jylkat Bar","de":"Garnelen, Dill und Zitrone serviert mit Brot und Roséwein in der Jylkat Bar","sv":"Räkor, dill och citron serverat med bröd och rosévin på Jylkat Bar"},
- "food_kicker": {"da":"BAR MENU","en":"BAR MENU","de":"BAR MENU","sv":"BARMENY"},
- "food_h2": {"da":"Mad","en":"Food","de":"Speisen","sv":"Mat"},
- "takeaway": {"da":"Alle retter kan også fås som take-away","en":"All dishes are also available to take away","de":"Alle Gerichte gibt es auch zum Mitnehmen","sv":"Alla rätter går också att få som take-away"},
+ "alt": {
+  "da": "Rejer, dild og citron serveret med brød og rosévin på Jylkat Bar",
+  "en": "Shrimp, dill and lemon served with bread and rosé wine at Jylkat Bar",
+  "de": "Garnelen, Dill und Zitrone serviert mit Brot und Roséwein in der Jylkat Bar",
+  "sv": "Räkor, dill och citron serverat med bröd och rosévin på Jylkat Bar"
+ },
+ "food_kicker": {
+  "da": "BAR MENU",
+  "en": "BAR MENU",
+  "de": "BAR MENU",
+  "sv": "BARMENY"
+ },
+ "food_h2": {
+  "da": "Mad",
+  "en": "Food",
+  "de": "Speisen",
+  "sv": "Mat"
+ },
+ "takeaway": {
+  "da": "Alle retter kan også fås som take-away",
+  "en": "All dishes are also available to take away",
+  "de": "Alle Gerichte gibt es auch zum Mitnehmen",
+  "sv": "Alla rätter går också att få som take-away"
+ },
  "food": [
-  {"price":"145 kr","name":{"da":"Hummerdog","en":"Lobster dog","de":"Hummer-Hotdog","sv":"Hummerdog"},"p":{"da":"Hummerhaler vendt i cremet dressing med grønne asparges og dild, anrettet i blødt briochebrød og toppet med friske urter","en":"Lobster tails in a creamy dressing with green asparagus and dill, served in a soft brioche bun and topped with fresh herbs","de":"Hummerschwänze in cremigem Dressing mit grünem Spargel und Dill, in weichem Brioche-Brötchen, mit frischen Kräutern","sv":"Hummerstjärtar i krämig dressing med grön sparris och dill, serverad i mjukt briochebröd och toppad med färska örter"}},
-  {"price":"85 kr","name":{"da":"Jyldog","en":"Jyldog","de":"Jyldog","sv":"Jyldog"},"p":{"da":"110 g frankfurter fra Bornholmer Slagteren med ketchup og sennep fra Smedens, hjemmerørt remoulade, syltede rødløg og friske urter","en":"110 g frankfurter from Bornholmer Slagteren with ketchup and mustard from Smedens, homemade rémoulade, pickled red onions and fresh herbs","de":"110 g Frankfurter von Bornholmer Slagteren mit Ketchup und Senf von Smedens, hausgemachter Rémoulade, eingelegten roten Zwiebeln und frischen Kräutern","sv":"110 g frankfurterkorv från Bornholmer Slagteren med ketchup och senap från Smedens, hemgjord remoulad, picklad rödlök och färska örter"}},
-  {"price":"145 kr","name":{"da":"Roserejer","en":"Rose prawns","de":"Rosé-Garnelen","sv":"Räkor"},"p":{"da":"250 g crevette roserejer, pil selv, serveret med frisk citron, safranmayo og godt surdejsbrød","en":"250 g crevette rose prawns, peel your own, served with fresh lemon, saffron mayo and good sourdough bread","de":"250 g Crevettes roses zum Selbstschälen, mit frischer Zitrone, Safranmayo und gutem Sauerteigbrot","sv":"250 g crevettes roses – skala själv – serverade med färsk citron, saffransmajonnäs och gott surdegsbröd"}},
-  {"price":"95 kr","name":{"da":"Dirty Cowboy","en":"Dirty Cowboy","de":"Dirty Cowboy","sv":"Dirty Cowboy"},"p":{"da":"Smørstegt toast med roastbeef, mayo, karamelliserede løg og smeltet ost. Serveres med sprøde kartoffelchips","en":"Butter-fried toast with roast beef, mayo, caramelised onions and melted cheese. Served with crispy potato crisps","de":"In Butter gebratener Toast mit Roastbeef, Mayo, karamellisierten Zwiebeln und geschmolzenem Käse. Mit knusprigen Kartoffelchips","sv":"Smörstekt toast med roastbeef, majonnäs, karamelliserad lök och smält ost. Serveras med knapriga potatischips"}},
-  {"price":"135 kr","name":{"da":"Open Sandwich","en":"Open Sandwich","de":"Open Sandwich","sv":"Open Sandwich"},"p":{"da":"Surdejsbrød med Ibérico-skinke, trøffelmayo, bøffelmozzarella og syltede rødløg, toppet med friske urter","en":"Sourdough bread with Ibérico ham, truffle mayo, buffalo mozzarella and pickled red onions, topped with fresh herbs","de":"Sauerteigbrot mit Ibérico-Schinken, Trüffelmayo, Büffelmozzarella und eingelegten roten Zwiebeln, mit frischen Kräutern","sv":"Surdegsbröd med Ibérico-skinka, tryffelmajonnäs, buffelmozzarella och picklad rödlök, toppat med färska örter"}},
-  {"price":"125 kr","name":{"da":"Ibérico Bellota","en":"Ibérico Bellota","de":"Ibérico Bellota","sv":"Ibérico Bellota"},"p":{"da":"Spansk Ibérico Bellota-skinke, modnet i 36 måneder","en":"Spanish Ibérico Bellota ham, aged for 36 months","de":"Spanischer Ibérico-Bellota-Schinken, 36 Monate gereift","sv":"Spansk Ibérico Bellota-skinka, lagrad i 36 månader"}},
-  {"price":"65 kr","name":{"da":"Surdej & smør","en":"Sourdough & butter","de":"Sauerteigbrot & Butter","sv":"Surdeg och smör"},"p":{"da":"Godt surdejsbrød med hjemmepisket smør rørt med olivenolie","en":"Good sourdough bread with homemade butter whipped with olive oil","de":"Gutes Sauerteigbrot mit hausgemachter, mit Olivenöl aufgeschlagener Butter","sv":"Gott surdegsbröd med hemvispat smör rört med olivolja"}},
-  {"price":"45 kr","name":{"da":"Popcorn","en":"Popcorn","de":"Popcorn","sv":"Popcorn"},"p":{"da":"Med belgisk chokolade eller salted caramel","en":"With Belgian chocolate or salted caramel","de":"Mit belgischer Schokolade oder Salzkaramell","sv":"Med belgisk choklad eller salt kolasmak"}},
-  {"price":"65 kr","name":{"da":"Chips & trøffel","en":"Chips & truffle","de":"Chips & Trüffel","sv":"Chips och tryffel"},"p":{"da":"Sprøde trøffelchips med trøffelcreme","en":"Crispy truffle crisps with truffle cream","de":"Knusprige Trüffelchips mit Trüffelcreme","sv":"Knapriga tryffelchips med tryffelcrème"}}
+  {
+   "price": "145 kr",
+   "name": {
+    "da": "Hummerdog",
+    "en": "Lobster dog",
+    "de": "Hummer-Hotdog",
+    "sv": "Hummerdog"
+   },
+   "p": {
+    "da": "Hummerhaler vendt i cremet dressing med grønne asparges og dild, anrettet i blødt briochebrød og toppet med friske urter",
+    "en": "Lobster tails in a creamy dressing with green asparagus and dill, served in a soft brioche bun and topped with fresh herbs",
+    "de": "Hummerschwänze in cremigem Dressing mit grünem Spargel und Dill, in weichem Brioche-Brötchen, mit frischen Kräutern",
+    "sv": "Hummerstjärtar i krämig dressing med grön sparris och dill, serverad i mjukt briochebröd och toppad med färska örter"
+   }
+  },
+  {
+   "price": "85 kr",
+   "name": {
+    "da": "Jyldog",
+    "en": "Jyldog",
+    "de": "Jyldog",
+    "sv": "Jyldog"
+   },
+   "p": {
+    "da": "110 g frankfurter fra Bornholmer Slagteren med ketchup og sennep fra Smedens, hjemmerørt remoulade, syltede rødløg og friske urter",
+    "en": "110 g frankfurter from Bornholmer Slagteren with ketchup and mustard from Smedens, homemade rémoulade, pickled red onions and fresh herbs",
+    "de": "110 g Frankfurter von Bornholmer Slagteren mit Ketchup und Senf von Smedens, hausgemachter Rémoulade, eingelegten roten Zwiebeln und frischen Kräutern",
+    "sv": "110 g frankfurterkorv från Bornholmer Slagteren med ketchup och senap från Smedens, hemgjord remoulad, picklad rödlök och färska örter"
+   }
+  },
+  {
+   "price": "145 kr",
+   "name": {
+    "da": "Roserejer",
+    "en": "Rose prawns",
+    "de": "Rosé-Garnelen",
+    "sv": "Räkor"
+   },
+   "p": {
+    "da": "250 g crevette roserejer, pil selv, serveret med frisk citron, safranmayo og godt surdejsbrød",
+    "en": "250 g crevette rose prawns, peel your own, served with fresh lemon, saffron mayo and good sourdough bread",
+    "de": "250 g Crevettes roses zum Selbstschälen, mit frischer Zitrone, Safranmayo und gutem Sauerteigbrot",
+    "sv": "250 g crevettes roses – skala själv – serverade med färsk citron, saffransmajonnäs och gott surdegsbröd"
+   }
+  },
+  {
+   "price": "95 kr",
+   "name": {
+    "da": "Dirty Cowboy",
+    "en": "Dirty Cowboy",
+    "de": "Dirty Cowboy",
+    "sv": "Dirty Cowboy"
+   },
+   "p": {
+    "da": "Smørstegt toast med roastbeef, mayo, karamelliserede løg og smeltet ost. Serveres med sprøde kartoffelchips",
+    "en": "Butter-fried toast with roast beef, mayo, caramelised onions and melted cheese. Served with crispy potato crisps",
+    "de": "In Butter gebratener Toast mit Roastbeef, Mayo, karamellisierten Zwiebeln und geschmolzenem Käse. Mit knusprigen Kartoffelchips",
+    "sv": "Smörstekt toast med roastbeef, majonnäs, karamelliserad lök och smält ost. Serveras med knapriga potatischips"
+   }
+  },
+  {
+   "price": "135 kr",
+   "name": {
+    "da": "Open Sandwich",
+    "en": "Open Sandwich",
+    "de": "Open Sandwich",
+    "sv": "Open Sandwich"
+   },
+   "p": {
+    "da": "Surdejsbrød med Ibérico-skinke, trøffelmayo, bøffelmozzarella og syltede rødløg, toppet med friske urter",
+    "en": "Sourdough bread with Ibérico ham, truffle mayo, buffalo mozzarella and pickled red onions, topped with fresh herbs",
+    "de": "Sauerteigbrot mit Ibérico-Schinken, Trüffelmayo, Büffelmozzarella und eingelegten roten Zwiebeln, mit frischen Kräutern",
+    "sv": "Surdegsbröd med Ibérico-skinka, tryffelmajonnäs, buffelmozzarella och picklad rödlök, toppat med färska örter"
+   }
+  },
+  {
+   "price": "125 kr",
+   "name": {
+    "da": "Ibérico Bellota",
+    "en": "Ibérico Bellota",
+    "de": "Ibérico Bellota",
+    "sv": "Ibérico Bellota"
+   },
+   "p": {
+    "da": "Spansk Ibérico Bellota-skinke, modnet i 36 måneder",
+    "en": "Spanish Ibérico Bellota ham, aged for 36 months",
+    "de": "Spanischer Ibérico-Bellota-Schinken, 36 Monate gereift",
+    "sv": "Spansk Ibérico Bellota-skinka, lagrad i 36 månader"
+   }
+  },
+  {
+   "price": "65 kr",
+   "name": {
+    "da": "Surdej & smør",
+    "en": "Sourdough & butter",
+    "de": "Sauerteigbrot & Butter",
+    "sv": "Surdeg och smör"
+   },
+   "p": {
+    "da": "Godt surdejsbrød med hjemmepisket smør rørt med olivenolie",
+    "en": "Good sourdough bread with homemade butter whipped with olive oil",
+    "de": "Gutes Sauerteigbrot mit hausgemachter, mit Olivenöl aufgeschlagener Butter",
+    "sv": "Gott surdegsbröd med hemvispat smör rört med olivolja"
+   }
+  },
+  {
+   "price": "45 kr",
+   "name": {
+    "da": "Popcorn",
+    "en": "Popcorn",
+    "de": "Popcorn",
+    "sv": "Popcorn"
+   },
+   "p": {
+    "da": "Med belgisk chokolade eller salted caramel",
+    "en": "With Belgian chocolate or salted caramel",
+    "de": "Mit belgischer Schokolade oder Salzkaramell",
+    "sv": "Med belgisk choklad eller salt kolasmak"
+   }
+  },
+  {
+   "price": "65 kr",
+   "name": {
+    "da": "Chips & trøffel",
+    "en": "Chips & truffle",
+    "de": "Chips & Trüffel",
+    "sv": "Chips och tryffel"
+   },
+   "p": {
+    "da": "Sprøde trøffelchips med trøffelcreme",
+    "en": "Crispy truffle crisps with truffle cream",
+    "de": "Knusprige Trüffelchips mit Trüffelcreme",
+    "sv": "Knapriga tryffelchips med tryffelcrème"
+   }
+  }
  ],
- "drinks_kicker": {"da":"DRINKSKORT","en":"DRINKS MENU","de":"GETRÄNKEKARTE","sv":"DRINKMENY"},
- "drinks_h2": {"da":"Drikkevarer","en":"Drinks","de":"Getränke","sv":"Drycker"},
+ "drinks_kicker": {
+  "da": "DRINKSKORT",
+  "en": "DRINKS MENU",
+  "de": "GETRÄNKEKARTE",
+  "sv": "DRINKMENY"
+ },
+ "drinks_h2": {
+  "da": "Drikkevarer",
+  "en": "Drinks",
+  "de": "Getränke",
+  "sv": "Drycker"
+ },
  "drinks": [
-  {"cat":{"da":"Spritz","en":"Spritz","de":"Spritz","sv":"Spritz"},"items":[
-   ["Granit Spritz","115 kr",{"da":"Rabarberlikør, bobler, rabarbersaft, frisk rabarber","en":"Rhubarb liqueur, sparkling wine, rhubarb juice, fresh rhubarb","de":"Rhabarberlikör, Sekt, Rhabarbersaft, frischer Rhabarber","sv":"Rabarberlikör, mousserande vin, rabarbersaft, färsk rabarber"}],
-   ["Aperol Spritz","115 kr",{"da":"Aperol, bobler, sodavand, frisk appelsin","en":"Aperol, sparkling wine, soda water, fresh orange","de":"Aperol, Sekt, Sodawasser, frische Orange","sv":"Aperol, mousserande vin, sodavatten, färsk apelsin"}]]},
-  {"cat":{"da":"Cocktails","en":"Cocktails","de":"Cocktails","sv":"Cocktails"},"items":[
-   ["Gin Over Gudhjem","130 kr",{"da":"Wild Gin, Fever-Tree Tonic, høstet saft og bær, frisk rosmarin","en":"Wild Gin, Fever-Tree Tonic, foraged juice and berries, fresh rosemary","de":"Wild Gin, Fever-Tree Tonic, gesammelter Saft und Beeren, frischer Rosmarin","sv":"Wild Gin, Fever-Tree Tonic, vildplockad saft och bär, färsk rosmarin"}],
-   ["Classic Gin & Tonic","130 kr",{"da":"Wild Gin, Fever-Tree Tonic, frisk rosmarin","en":"Wild Gin, Fever-Tree Tonic, fresh rosemary","de":"Wild Gin, Fever-Tree Tonic, frischer Rosmarin","sv":"Wild Gin, Fever-Tree Tonic, färsk rosmarin"}],
-   ["Strawberry Tonic","130 kr",{"da":"Wild jordbærlikør, Fever-Tree Tonic, friske jordbær, frisk mynte","en":"Wild strawberry liqueur, Fever-Tree Tonic, fresh strawberries, fresh mint","de":"Wild-Erdbeerlikör, Fever-Tree Tonic, frische Erdbeeren, frische Minze","sv":"Wild jordgubbslikör, Fever-Tree Tonic, färska jordgubbar, färsk mynta"}],
-   ["Born Bramble","115 kr",{"da":"Skovbærlikør, citronsaft, friske brombær og hindbær","en":"Forest berry liqueur, lemon juice, fresh blackberries and raspberries","de":"Waldbeerenlikör, Zitronensaft, frische Brombeeren und Himbeeren","sv":"Skogsbärslikör, citronsaft, färska björnbär och hallon"}],
-   ["Hammer Mule","115 kr",{"da":"Vodka, rabarbersaft, danskvand, frisk rabarber og lime","en":"Vodka, rhubarb juice, sparkling water, fresh rhubarb and lime","de":"Wodka, Rhabarbersaft, Mineralwasser, frischer Rhabarber und Limette","sv":"Vodka, rabarbersaft, kolsyrat vatten, färsk rabarber och lime"}],
-   ["Stormy Gudhjem","115 kr",{"da":"Rocky Island Rum, Fever-Tree Ginger Beer, frisk lime, Angostura","en":"Rocky Island Rum, Fever-Tree Ginger Beer, fresh lime, Angostura","de":"Rocky Island Rum, Fever-Tree Ginger Beer, frische Limette, Angostura","sv":"Rocky Island Rum, Fever-Tree Ginger Beer, färsk lime, Angostura"}],
-   ["Gudhjem Libre","115 kr",{"da":"Rocky Island Rum, Hancock Cola, frisk lime","en":"Rocky Island Rum, Hancock Cola, fresh lime","de":"Rocky Island Rum, Hancock Cola, frische Limette","sv":"Rocky Island Rum, Hancock Cola, färsk lime"}]]},
-  {"cat":{"da":"Øl og sodavand","en":"Beer and soft drinks","de":"Bier und Softdrinks","sv":"Öl och läskedryck"},"items":[
-   ["Svaneke Bingo Gringo","75 kr","LOCAL"],["Svaneke Classic","75 kr","LOCAL"],
-   ["Svaneke Juicy Island IPA","75 kr",{"da":"Humlet og frugtig","en":"Hoppy and fruity","de":"Hopfig und fruchtig","sv":"Humlig och fruktig"}],
-   ["Beer Here Season","85 kr",{"da":"Spørg tjeneren om den aktuelle årstidsøl","en":"Ask your server about the current seasonal beer","de":"Fragen Sie Ihre Bedienung nach dem aktuellen Saisonbier","sv":"Fråga personalen om den aktuella säsongsölen"}],
-   ["Don't Worry Pale Ale","50 kr",{"da":"Alkoholfri pale ale","en":"Alcohol-free pale ale","de":"Alkoholfreies Pale Ale","sv":"Alkoholfri pale ale"}],
-   ["Bornholms Mosteri Hyldeblomst","40 kr","MOSTERI"],["Bornholms Mosteri Jordbær & Rabarber","40 kr","MOSTERI"],["Bornholms Mosteri Æblemost","40 kr","MOSTERI"],
-   ["Hancock Cola / Cola Light","40 kr",""],["Hancock Lemon","40 kr",""],["Hancock Appelsin Light","40 kr",""],["Fever-Tree Tonic","40 kr",""],["Fever-Tree Ginger Beer","40 kr",""]]},
-  {"cat":{"da":"Champagne","en":"Champagne","de":"Champagner","sv":"Champagne"},"items":[
-   ["Moët & Chandon, Impérial Brut, Champagne, Frankrig","795 kr","BOTTLE"],
-   ["Odyssée, Blanc de Blancs Grand Cru, Avize, Champagne, Frankrig","695 kr","BOTTLE"]]},
-  {"cat":{"da":"Bobler","en":"Sparkling","de":"Sekt","sv":"Mousserande"},"items":[
-   ["Anna de Codorníu, Blanc de Blancs, Spanien","125 kr / 399 kr","GB"],
-   ["Anna de Codorníu, Blanc de Blancs, Spanien, Magnum","825 kr","L15"],
-   ["Proverbio Prosecco, Extra Dry, økologisk, Italien","110 kr / 345 kr","GB"],
-   ["Saint Louis, Blanc de Blancs, Frankrig","75 kr / 245 kr","GB"],
-   ["Domaine de Berguerolles, Pét' Nat', Frankrig (2025)","425 kr",{"da":"Mousserende naturvin med fine bobler og noter af citrus, pære og passionsfrugt.","en":"Natural sparkling wine with fine bubbles and notes of citrus, pear and passion fruit.","de":"Prickelnder Naturwein mit feinen Perlen und Noten von Zitrus, Birne und Passionsfrucht.","sv":"Mousserande naturvin med fina bubblor och toner av citrus, päron och passionsfrukt."}]]},
-  {"cat":{"da":"Hvidvin","en":"White wine","de":"Weißwein","sv":"Vitt vin"},"items":[
-   ["Montgravet, Sauvignon Blanc, Pays d'Oc, Frankrig (2025)","85 kr / 275 kr","GB"],
-   ["Kellerhoff, Grüner Veltliner, Niederösterreich, Østrig (2025)","85 kr / 275 kr","GB"],
-   ["Soligo, Pinot Grigio, Veneto, Italien (2025)","90 kr / 295 kr","GB"],
-   ["Alois Lageder, Misto Mare, Vigneti delle Dolomiti, Italien (2025)","125 kr / 399 kr","GB"],
-   ["Rodrigo Méndez, Toralla Albariño, Rías Baixas, Spanien (2025)","140 kr / 450 kr","GB"],
-   ["Louis Jadot, Mâcon-Villages Grange Magnien, Bourgogne, Frankrig (2025)","180 kr / 575 kr","GB"],
-   ["Louis Jadot, Bourgogne Chardonnay Les Petites Pierres, Frankrig (2024)","185 kr / 595 kr","GB"]]},
-  {"cat":{"da":"Rosévin","en":"Rosé wine","de":"Roséwein","sv":"Rosévin"},"items":[
-   ["Stone Peak, White Zinfandel, Californien, USA (2023)","85 kr / 275 kr","GB"],
-   ["The Beach, Whispering Angel, Frankrig (2025)","125 kr / 395 kr","GB"],
-   ["AIX, Coteaux d'Aix-en-Provence, Frankrig (2025)","150 kr / 475 kr","GB"],
-   ["AIX, Coteaux d'Aix-en-Provence, Frankrig, Magnum (2024)","900 kr","L15"],
-   ["AIX, Coteaux d'Aix-en-Provence, Frankrig, 3 liter (2024)","1750 kr","LARGE"],
-   ["AIX, Coteaux d'Aix-en-Provence, Frankrig, 6 liter (2024)","2900 kr","LARGE"]]},
-  {"cat":{"da":"Rødvin","en":"Red wine","de":"Rotwein","sv":"Rött vin"},"items":[
-   ["Montgravet, Pinot Noir, Pays d'Oc, Frankrig (2025)","85 kr / 275 kr","GB"],
-   ["Hillgrove Creek, Shiraz, South Eastern Australia","85 kr / 275 kr","GB"],
-   ["Stone Peak, Zinfandel, Californien, USA (2022)","90 kr / 295 kr","GB"],
-   ["Castello di Farnetella, Chianti Riserva, Colli Senesi, Toscana, Italien (2022)","165 kr / 525 kr","GB"],
-   ["Louis Jadot, Bourgogne Rouge Couvent des Jacobins, Frankrig (2023)","185 kr / 595 kr","GB"],
-   ["Francis Ford Coppola, Director's Cut Cabernet Sauvignon, Californien, USA (2021)","690 kr","BOTTLE"],
-   ["Vega Sicilia, Pintia, Toro, Spanien (2021)","1290 kr","BOTTLE"]]},
-  {"cat":{"da":"Alkoholfrit","en":"Non-alcoholic","de":"Alkoholfrei","sv":"Alkoholfritt"},"items":[
-   ["Divin, Sauvignon Blanc, Frankrig","95 kr / 299 kr","GB"],
-   ["Divin, Pinot Noir, Frankrig","95 kr / 299 kr","GB"],
-   [{"da":"Beau Viva, Sparkling Rosé, alkoholfri mousserende rosé","en":"Beau Viva, Sparkling Rosé, alcohol-free sparkling rosé","de":"Beau Viva, Sparkling Rosé, alkoholfreier Rosé-Schaumwein","sv":"Beau Viva, Sparkling Rosé, alkoholfri mousserande rosé"},"150 kr / 475 kr","GB"]]},
-  {"cat":{"da":"Varme drikke","en":"Hot drinks","de":"Heiße Getränke","sv":"Varma drycker"},"items":[
-   [{"da":"Varm kakao","en":"Hot chocolate","de":"Heiße Schokolade","sv":"Varm choklad"},"",{"da":"Varm kakao med flødeskum (med rom 95 kr)","en":"Hot chocolate with whipped cream (with rum 95 kr)","de":"Heiße Schokolade mit Schlagsahne (mit Rum 95 kr)","sv":"Varm choklad med vispgrädde (med rom 95 kr)"}]]}
+  {
+   "cat": {
+    "da": "Spritz",
+    "en": "Spritz",
+    "de": "Spritz",
+    "sv": "Spritz"
+   },
+   "items": [
+    [
+     "Granit Spritz",
+     "115 kr",
+     {
+      "da": "Rabarberlikør, bobler, rabarbersaft, frisk rabarber",
+      "en": "Rhubarb liqueur, sparkling wine, rhubarb juice, fresh rhubarb",
+      "de": "Rhabarberlikör, Sekt, Rhabarbersaft, frischer Rhabarber",
+      "sv": "Rabarberlikör, mousserande vin, rabarbersaft, färsk rabarber"
+     }
+    ],
+    [
+     "Aperol Spritz",
+     "115 kr",
+     {
+      "da": "Aperol, bobler, sodavand, frisk appelsin",
+      "en": "Aperol, sparkling wine, soda water, fresh orange",
+      "de": "Aperol, Sekt, Sodawasser, frische Orange",
+      "sv": "Aperol, mousserande vin, sodavatten, färsk apelsin"
+     }
+    ]
+   ]
+  },
+  {
+   "cat": {
+    "da": "Cocktails",
+    "en": "Cocktails",
+    "de": "Cocktails",
+    "sv": "Cocktails"
+   },
+   "items": [
+    [
+     "Gin Over Gudhjem",
+     "130 kr",
+     {
+      "da": "Wild Gin, Fever-Tree Tonic, høstet saft og bær, frisk rosmarin",
+      "en": "Wild Gin, Fever-Tree Tonic, foraged juice and berries, fresh rosemary",
+      "de": "Wild Gin, Fever-Tree Tonic, gesammelter Saft und Beeren, frischer Rosmarin",
+      "sv": "Wild Gin, Fever-Tree Tonic, vildplockad saft och bär, färsk rosmarin"
+     }
+    ],
+    [
+     "Classic Gin & Tonic",
+     "130 kr",
+     {
+      "da": "Wild Gin, Fever-Tree Tonic, frisk rosmarin",
+      "en": "Wild Gin, Fever-Tree Tonic, fresh rosemary",
+      "de": "Wild Gin, Fever-Tree Tonic, frischer Rosmarin",
+      "sv": "Wild Gin, Fever-Tree Tonic, färsk rosmarin"
+     }
+    ],
+    [
+     "Strawberry Tonic",
+     "130 kr",
+     {
+      "da": "Wild jordbærlikør, Fever-Tree Tonic, friske jordbær, frisk mynte",
+      "en": "Wild strawberry liqueur, Fever-Tree Tonic, fresh strawberries, fresh mint",
+      "de": "Wild-Erdbeerlikör, Fever-Tree Tonic, frische Erdbeeren, frische Minze",
+      "sv": "Wild jordgubbslikör, Fever-Tree Tonic, färska jordgubbar, färsk mynta"
+     }
+    ],
+    [
+     "Born Bramble",
+     "115 kr",
+     {
+      "da": "Skovbærlikør, citronsaft, friske brombær og hindbær",
+      "en": "Forest berry liqueur, lemon juice, fresh blackberries and raspberries",
+      "de": "Waldbeerenlikör, Zitronensaft, frische Brombeeren und Himbeeren",
+      "sv": "Skogsbärslikör, citronsaft, färska björnbär och hallon"
+     }
+    ],
+    [
+     "Hammer Mule",
+     "115 kr",
+     {
+      "da": "Vodka, rabarbersaft, danskvand, frisk rabarber og lime",
+      "en": "Vodka, rhubarb juice, sparkling water, fresh rhubarb and lime",
+      "de": "Wodka, Rhabarbersaft, Mineralwasser, frischer Rhabarber und Limette",
+      "sv": "Vodka, rabarbersaft, kolsyrat vatten, färsk rabarber och lime"
+     }
+    ],
+    [
+     "Stormy Gudhjem",
+     "115 kr",
+     {
+      "da": "Rocky Island Rum, Fever-Tree Ginger Beer, frisk lime, Angostura",
+      "en": "Rocky Island Rum, Fever-Tree Ginger Beer, fresh lime, Angostura",
+      "de": "Rocky Island Rum, Fever-Tree Ginger Beer, frische Limette, Angostura",
+      "sv": "Rocky Island Rum, Fever-Tree Ginger Beer, färsk lime, Angostura"
+     }
+    ],
+    [
+     "Gudhjem Libre",
+     "115 kr",
+     {
+      "da": "Rocky Island Rum, Hancock Cola, frisk lime",
+      "en": "Rocky Island Rum, Hancock Cola, fresh lime",
+      "de": "Rocky Island Rum, Hancock Cola, frische Limette",
+      "sv": "Rocky Island Rum, Hancock Cola, färsk lime"
+     }
+    ]
+   ]
+  },
+  {
+   "cat": {
+    "da": "Øl og sodavand",
+    "en": "Beer and soft drinks",
+    "de": "Bier und Softdrinks",
+    "sv": "Öl och läskedryck"
+   },
+   "items": [
+    [
+     "Svaneke Bingo Gringo",
+     "75 kr",
+     "LOCAL"
+    ],
+    [
+     "Svaneke Classic",
+     "75 kr",
+     "LOCAL"
+    ],
+    [
+     "Svaneke Juicy Island IPA",
+     "75 kr",
+     {
+      "da": "Humlet og frugtig",
+      "en": "Hoppy and fruity",
+      "de": "Hopfig und fruchtig",
+      "sv": "Humlig och fruktig"
+     }
+    ],
+    [
+     "Beer Here Season",
+     "85 kr",
+     {
+      "da": "Spørg tjeneren om den aktuelle årstidsøl",
+      "en": "Ask your server about the current seasonal beer",
+      "de": "Fragen Sie Ihre Bedienung nach dem aktuellen Saisonbier",
+      "sv": "Fråga personalen om den aktuella säsongsölen"
+     }
+    ],
+    [
+     "Don't Worry Pale Ale",
+     "50 kr",
+     {
+      "da": "Alkoholfri pale ale",
+      "en": "Alcohol-free pale ale",
+      "de": "Alkoholfreies Pale Ale",
+      "sv": "Alkoholfri pale ale"
+     }
+    ],
+    [
+     "Bornholms Mosteri Hyldeblomst",
+     "40 kr",
+     "MOSTERI"
+    ],
+    [
+     "Bornholms Mosteri Jordbær & Rabarber",
+     "40 kr",
+     "MOSTERI"
+    ],
+    [
+     "Bornholms Mosteri Æblemost",
+     "40 kr",
+     "MOSTERI"
+    ],
+    [
+     "Hancock Cola / Cola Light",
+     "40 kr",
+     ""
+    ],
+    [
+     "Hancock Lemon",
+     "40 kr",
+     ""
+    ],
+    [
+     "Hancock Appelsin Light",
+     "40 kr",
+     ""
+    ],
+    [
+     "Fever-Tree Tonic",
+     "40 kr",
+     ""
+    ],
+    [
+     "Fever-Tree Ginger Beer",
+     "40 kr",
+     ""
+    ]
+   ]
+  },
+  {
+   "cat": {
+    "da": "Champagne",
+    "en": "Champagne",
+    "de": "Champagner",
+    "sv": "Champagne"
+   },
+   "items": [
+    [
+     "Moët & Chandon, Impérial Brut, Champagne, Frankrig",
+     "795 kr",
+     "BOTTLE"
+    ],
+    [
+     "Odyssée, Blanc de Blancs Grand Cru, Avize, Champagne, Frankrig",
+     "695 kr",
+     "BOTTLE"
+    ]
+   ]
+  },
+  {
+   "cat": {
+    "da": "Bobler",
+    "en": "Sparkling",
+    "de": "Sekt",
+    "sv": "Mousserande"
+   },
+   "items": [
+    [
+     "Anna de Codorníu, Blanc de Blancs, Spanien",
+     "125 kr / 399 kr",
+     "GB"
+    ],
+    [
+     "Anna de Codorníu, Blanc de Blancs, Spanien, Magnum",
+     "825 kr",
+     "L15"
+    ],
+    [
+     "Proverbio Prosecco, Extra Dry, økologisk, Italien",
+     "110 kr / 345 kr",
+     "GB"
+    ],
+    [
+     "Saint Louis, Blanc de Blancs, Frankrig",
+     "75 kr / 245 kr",
+     "GB"
+    ],
+    [
+     "Domaine de Berguerolles, Pét' Nat', Frankrig (2025)",
+     "425 kr",
+     {
+      "da": "Mousserende naturvin med fine bobler og noter af citrus, pære og passionsfrugt.",
+      "en": "Natural sparkling wine with fine bubbles and notes of citrus, pear and passion fruit.",
+      "de": "Prickelnder Naturwein mit feinen Perlen und Noten von Zitrus, Birne und Passionsfrucht.",
+      "sv": "Mousserande naturvin med fina bubblor och toner av citrus, päron och passionsfrukt."
+     }
+    ]
+   ]
+  },
+  {
+   "cat": {
+    "da": "Hvidvin",
+    "en": "White wine",
+    "de": "Weißwein",
+    "sv": "Vitt vin"
+   },
+   "items": [
+    [
+     "Montgravet, Sauvignon Blanc, Pays d'Oc, Frankrig (2025)",
+     "85 kr / 275 kr",
+     "GB"
+    ],
+    [
+     "Kellerhoff, Grüner Veltliner, Niederösterreich, Østrig (2025)",
+     "85 kr / 275 kr",
+     "GB"
+    ],
+    [
+     "Soligo, Pinot Grigio, Veneto, Italien (2025)",
+     "90 kr / 295 kr",
+     "GB"
+    ],
+    [
+     "Alois Lageder, Misto Mare, Vigneti delle Dolomiti, Italien (2025)",
+     "125 kr / 399 kr",
+     "GB"
+    ],
+    [
+     "Rodrigo Méndez, Toralla Albariño, Rías Baixas, Spanien (2025)",
+     "140 kr / 450 kr",
+     "GB"
+    ],
+    [
+     "Louis Jadot, Mâcon-Villages Grange Magnien, Bourgogne, Frankrig (2025)",
+     "180 kr / 575 kr",
+     "GB"
+    ],
+    [
+     "Louis Jadot, Bourgogne Chardonnay Les Petites Pierres, Frankrig (2024)",
+     "185 kr / 595 kr",
+     "GB"
+    ]
+   ]
+  },
+  {
+   "cat": {
+    "da": "Rosévin",
+    "en": "Rosé wine",
+    "de": "Roséwein",
+    "sv": "Rosévin"
+   },
+   "items": [
+    [
+     "Stone Peak, White Zinfandel, Californien, USA (2023)",
+     "85 kr / 275 kr",
+     "GB"
+    ],
+    [
+     "The Beach, Whispering Angel, Frankrig (2025)",
+     "125 kr / 395 kr",
+     "GB"
+    ],
+    [
+     "AIX, Coteaux d'Aix-en-Provence, Frankrig (2025)",
+     "150 kr / 475 kr",
+     "GB"
+    ],
+    [
+     "AIX, Coteaux d'Aix-en-Provence, Frankrig, Magnum (2024)",
+     "900 kr",
+     "L15"
+    ],
+    [
+     "AIX, Coteaux d'Aix-en-Provence, Frankrig, 3 liter (2024)",
+     "1750 kr",
+     "LARGE"
+    ],
+    [
+     "AIX, Coteaux d'Aix-en-Provence, Frankrig, 6 liter (2024)",
+     "2900 kr",
+     "LARGE"
+    ]
+   ]
+  },
+  {
+   "cat": {
+    "da": "Rødvin",
+    "en": "Red wine",
+    "de": "Rotwein",
+    "sv": "Rött vin"
+   },
+   "items": [
+    [
+     "Montgravet, Pinot Noir, Pays d'Oc, Frankrig (2025)",
+     "85 kr / 275 kr",
+     "GB"
+    ],
+    [
+     "Hillgrove Creek, Shiraz, South Eastern Australia",
+     "85 kr / 275 kr",
+     "GB"
+    ],
+    [
+     "Stone Peak, Zinfandel, Californien, USA (2022)",
+     "90 kr / 295 kr",
+     "GB"
+    ],
+    [
+     "Castello di Farnetella, Chianti Riserva, Colli Senesi, Toscana, Italien (2022)",
+     "165 kr / 525 kr",
+     "GB"
+    ],
+    [
+     "Louis Jadot, Bourgogne Rouge Couvent des Jacobins, Frankrig (2023)",
+     "185 kr / 595 kr",
+     "GB"
+    ],
+    [
+     "Francis Ford Coppola, Director's Cut Cabernet Sauvignon, Californien, USA (2021)",
+     "690 kr",
+     "BOTTLE"
+    ],
+    [
+     "Vega Sicilia, Pintia, Toro, Spanien (2021)",
+     "1290 kr",
+     "BOTTLE"
+    ]
+   ]
+  },
+  {
+   "cat": {
+    "da": "Alkoholfrit",
+    "en": "Non-alcoholic",
+    "de": "Alkoholfrei",
+    "sv": "Alkoholfritt"
+   },
+   "items": [
+    [
+     "Divin, Sauvignon Blanc, Frankrig",
+     "95 kr / 299 kr",
+     "GB"
+    ],
+    [
+     "Divin, Pinot Noir, Frankrig",
+     "95 kr / 299 kr",
+     "GB"
+    ],
+    [
+     {
+      "da": "Beau Viva, Sparkling Rosé, alkoholfri mousserende rosé",
+      "en": "Beau Viva, Sparkling Rosé, alcohol-free sparkling rosé",
+      "de": "Beau Viva, Sparkling Rosé, alkoholfreier Rosé-Schaumwein",
+      "sv": "Beau Viva, Sparkling Rosé, alkoholfri mousserande rosé"
+     },
+     "150 kr / 475 kr",
+     "GB"
+    ]
+   ]
+  },
+  {
+   "cat": {
+    "da": "Varme drikke",
+    "en": "Hot drinks",
+    "de": "Heiße Getränke",
+    "sv": "Varma drycker"
+   },
+   "items": [
+    [
+     {
+      "da": "Varm kakao",
+      "en": "Hot chocolate",
+      "de": "Heiße Schokolade",
+      "sv": "Varm choklad"
+     },
+     "",
+     {
+      "da": "Varm kakao med flødeskum (med rom 95 kr)",
+      "en": "Hot chocolate with whipped cream (with rum 95 kr)",
+      "de": "Heiße Schokolade mit Schlagsahne (mit Rum 95 kr)",
+      "sv": "Varm choklad med vispgrädde (med rom 95 kr)"
+     }
+    ]
+   ]
+  }
  ],
  "notes": {
-  "LOCAL": {"da":"Lokalt brygget på Bornholm","en":"Locally brewed on Bornholm","de":"Lokal gebraut auf Bornholm","sv":"Lokalt bryggd på Bornholm"},
-  "MOSTERI": {"da":"Lokal saft fra Bornholms Mosteri","en":"Local juice from Bornholms Mosteri","de":"Lokaler Saft von Bornholms Mosteri","sv":"Lokal saft från Bornholms Mosteri"},
-  "BOTTLE": {"da":"Kun flaske","en":"Bottle only","de":"Nur Flasche","sv":"Endast flaska"},
-  "GB": {"da":"Glas / flaske","en":"Glass / bottle","de":"Glas / Flasche","sv":"Glas / flaska"},
-  "L15": {"da":"1,5 liter","en":"1.5 litres","de":"1,5 Liter","sv":"1,5 liter"},
-  "LARGE": {"da":"Storformat","en":"Large format","de":"Großformat","sv":"Storformat"}
+  "LOCAL": {
+   "da": "Lokalt brygget på Bornholm",
+   "en": "Locally brewed on Bornholm",
+   "de": "Lokal gebraut auf Bornholm",
+   "sv": "Lokalt bryggd på Bornholm"
+  },
+  "MOSTERI": {
+   "da": "Lokal saft fra Bornholms Mosteri",
+   "en": "Local juice from Bornholms Mosteri",
+   "de": "Lokaler Saft von Bornholms Mosteri",
+   "sv": "Lokal saft från Bornholms Mosteri"
+  },
+  "BOTTLE": {
+   "da": "Kun flaske",
+   "en": "Bottle only",
+   "de": "Nur Flasche",
+   "sv": "Endast flaska"
+  },
+  "GB": {
+   "da": "Glas / flaske",
+   "en": "Glass / bottle",
+   "de": "Glas / Flasche",
+   "sv": "Glas / flaska"
+  },
+  "L15": {
+   "da": "1,5 liter",
+   "en": "1.5 litres",
+   "de": "1,5 Liter",
+   "sv": "1,5 liter"
+  },
+  "LARGE": {
+   "da": "Storformat",
+   "en": "Large format",
+   "de": "Großformat",
+   "sv": "Storformat"
+  }
  },
  "countries": {
-  "Frankrig": {"en":"France","de":"Frankreich","sv":"Frankrike"},
-  "Spanien": {"en":"Spain","de":"Spanien","sv":"Spanien"},
-  "Italien": {"en":"Italy","de":"Italien","sv":"Italien"},
-  "Østrig": {"en":"Austria","de":"Österreich","sv":"Österrike"},
-  "Californien": {"en":"California","de":"Kalifornien","sv":"Kalifornien"},
-  "Toscana": {"en":"Tuscany","de":"Toskana","sv":"Toscana"},
-  "økologisk": {"en":"organic","de":"Bio","sv":"ekologisk"},
-  "3 liter": {"en":"3 litres","de":"3 Liter","sv":"3 liter"},
-  "6 liter": {"en":"6 litres","de":"6 Liter","sv":"6 liter"}
+  "Frankrig": {
+   "en": "France",
+   "de": "Frankreich",
+   "sv": "Frankrike"
+  },
+  "Spanien": {
+   "en": "Spain",
+   "de": "Spanien",
+   "sv": "Spanien"
+  },
+  "Italien": {
+   "en": "Italy",
+   "de": "Italien",
+   "sv": "Italien"
+  },
+  "Østrig": {
+   "en": "Austria",
+   "de": "Österreich",
+   "sv": "Österrike"
+  },
+  "Californien": {
+   "en": "California",
+   "de": "Kalifornien",
+   "sv": "Kalifornien"
+  },
+  "Toscana": {
+   "en": "Tuscany",
+   "de": "Toskana",
+   "sv": "Toscana"
+  },
+  "økologisk": {
+   "en": "organic",
+   "de": "Bio",
+   "sv": "ekologisk"
+  },
+  "3 liter": {
+   "en": "3 litres",
+   "de": "3 Liter",
+   "sv": "3 liter"
+  },
+  "6 liter": {
+   "en": "6 litres",
+   "de": "6 Liter",
+   "sv": "6 liter"
+  }
+ },
+ "xmas": {
+  "until": "2026-12-20",
+  "kicker": {
+   "da": "JUL PÅ JYLKAT · 27/11–20/12",
+   "en": "CHRISTMAS AT JYLKAT · 27/11–20/12",
+   "de": "WEIHNACHTEN BEI JYLKAT · 27.11.–20.12.",
+   "sv": "JUL PÅ JYLKAT · 27/11–20/12"
+  },
+  "h2": {
+   "da": "Juleanretning",
+   "en": "Christmas platter",
+   "de": "Weihnachtsteller",
+   "sv": "Julanrättning"
+  },
+  "price": "375 kr",
+  "tag": {
+   "da": "Pr. kuvert · serveres alle dage kl. 12–22 i juleteltet fra 27. november til 20. december",
+   "en": "Per person · served every day 12–10 pm in the Christmas tent from 27 November to 20 December",
+   "de": "Pro Person · täglich 12–22 Uhr im Weihnachtszelt vom 27. November bis 20. Dezember",
+   "sv": "Per kuvert · serveras alla dagar kl. 12–22 i jultältet från 27 november till 20 december"
+  },
+  "items": [
+   {
+    "da": "Ruths kryddersild fra Christiansø med rødløg",
+    "en": "Ruth's spiced herring from Christiansø with red onion",
+    "de": "Ruths Gewürzhering von Christiansø mit roten Zwiebeln",
+    "sv": "Ruths kryddsill från Christiansø med rödlök"
+   },
+   {
+    "da": "Hummersalat – hummerhaler i en cremet dressing med dild og grønne asparges",
+    "en": "Lobster salad – lobster tails in a creamy dressing with dill and green asparagus",
+    "de": "Hummersalat – Hummerschwänze in cremigem Dressing mit Dill und grünem Spargel",
+    "sv": "Hummersallad – hummerstjärtar i krämig dressing med dill och grön sparris"
+   },
+   {
+    "da": "Røget laks med purløg, citron og sprøde radiser",
+    "en": "Smoked salmon with chives, lemon and crisp radishes",
+    "de": "Räucherlachs mit Schnittlauch, Zitrone und knackigen Radieschen",
+    "sv": "Rökt lax med gräslök, citron och krispiga rädisor"
+   },
+   {
+    "da": "Roastbeef med syltede agurker og hjemmerørt remoulade",
+    "en": "Roast beef with pickled cucumber and homemade remoulade",
+    "de": "Roastbeef mit eingelegten Gurken und hausgemachter Remoulade",
+    "sv": "Rostbiff med inlagd gurka och hemgjord remoulad"
+   },
+   {
+    "da": "Julemedister med rå syltet rødkål med appelsin og valnødder",
+    "en": "Christmas sausage with raw pickled red cabbage, orange and walnuts",
+    "de": "Weihnachtswurst mit rohem eingelegtem Rotkohl, Orange und Walnüssen",
+    "sv": "Julkorv med rå inlagd rödkål, apelsin och valnötter"
+   },
+   {
+    "da": "Jyledog med confiteret and, syltede rødløg, sennepsmayo og brændt sesam",
+    "en": "Jyledog with confit duck, pickled red onion, mustard mayo and toasted sesame",
+    "de": "Jyledog mit konfierter Ente, eingelegten roten Zwiebeln, Senfmayo und geröstetem Sesam",
+    "sv": "Jyledog med konfiterad anka, inlagd rödlök, senapsmajonnäs och rostad sesam"
+   },
+   {
+    "da": "Surdejsbrød, rugbrød og pisket smør",
+    "en": "Sourdough bread, rye bread and whipped butter",
+    "de": "Sauerteigbrot, Roggenbrot und geschlagene Butter",
+    "sv": "Surdegsbröd, rågbröd och vispat smör"
+   }
+  ],
+  "btn": {
+   "da": "Book bord til juleanretning",
+   "en": "Book a table",
+   "de": "Tisch reservieren",
+   "sv": "Boka bord"
+  }
  }
 }

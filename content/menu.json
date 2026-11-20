@@ -232,6 +232,11 @@
       "de": "Aperol, Sekt, Sodawasser, frische Orange",
       "sv": "Aperol, mousserande vin, sodavatten, färsk apelsin"
      }
+    ],
+    [
+     "Christmas Spritz",
+     "115 kr",
+     ""
     ]
    ]
   },
@@ -264,14 +269,14 @@
      }
     ],
     [
-     "Strawberry Tonic",
-     "130 kr",
      {
-      "da": "Wild jordbærlikør, Fever-Tree Tonic, friske jordbær, frisk mynte",
-      "en": "Wild strawberry liqueur, Fever-Tree Tonic, fresh strawberries, fresh mint",
-      "de": "Wild-Erdbeerlikör, Fever-Tree Tonic, frische Erdbeeren, frische Minze",
-      "sv": "Wild jordgubbslikör, Fever-Tree Tonic, färska jordgubbar, färsk mynta"
-     }
+      "da": "Gløgg Tonic",
+      "en": "Gløgg Tonic",
+      "de": "Glühwein Tonic",
+      "sv": "Glögg Tonic"
+     },
+     "130 kr",
+     ""
     ],
     [
      "Born Bramble",
@@ -634,19 +639,79 @@
    },
    "items": [
     [
+     "Espresso",
+     "30 kr / 40 kr",
+     "SD"
+    ],
+    [
+     "Cappuccino",
+     "45 kr / 55 kr",
+     "SD"
+    ],
+    [
      {
-      "da": "Varm kakao",
+      "da": "Kaffe",
+      "en": "Coffee",
+      "de": "Kaffee",
+      "sv": "Kaffe"
+     },
+     "35 kr",
+     ""
+    ],
+    [
+     "Chai latte",
+     "50 kr",
+     ""
+    ],
+    [
+     {
+      "da": "Café latte",
+      "en": "Caffè latte",
+      "de": "Caffè Latte",
+      "sv": "Caffè latte"
+     },
+     "50 kr / 60 kr",
+     "SD"
+    ],
+    [
+     {
+      "da": "Varm chokolade",
       "en": "Hot chocolate",
       "de": "Heiße Schokolade",
       "sv": "Varm choklad"
      },
-     "",
+     "55 kr",
+     ""
+    ],
+    [
+     "Lumumba",
+     "95 kr",
+     ""
+    ],
+    [
+     "Island Coffee",
+     "65 kr",
+     ""
+    ],
+    [
      {
-      "da": "Varm kakao med flødeskum (med rom 95 kr)",
-      "en": "Hot chocolate with whipped cream (with rum 95 kr)",
-      "de": "Heiße Schokolade mit Schlagsahne (mit Rum 95 kr)",
-      "sv": "Varm choklad med vispgrädde (med rom 95 kr)"
-     }
+      "da": "Gløgg",
+      "en": "Gløgg (Danish mulled wine)",
+      "de": "Glühwein",
+      "sv": "Glögg"
+     },
+     "65 kr",
+     ""
+    ],
+    [
+     {
+      "da": "Gløgg med sjus",
+      "en": "Gløgg with a shot",
+      "de": "Glühwein mit Schuss",
+      "sv": "Glögg med sprit"
+     },
+     "85 kr",
+     ""
     ]
    ]
   }
@@ -687,6 +752,12 @@
    "en": "Large format",
    "de": "Großformat",
    "sv": "Storformat"
+  },
+  "SD": {
+   "da": "Single / dobbelt shot",
+   "en": "Single / double shot",
+   "de": "Einfach / doppelt",
+   "sv": "Enkel / dubbel shot"
   }
  },
  "countries": {

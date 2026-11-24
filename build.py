@@ -5,6 +5,7 @@
   python3 build.py --preview  -> preview/   (prøveversion: links til .html, billeder hentes fra jylkat-bar.dk)
 """
 import json, os, re, shutil, sys, html
+from pathlib import Path
 from datetime import date
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
@@ -27,6 +28,10 @@ VER = hashlib.md5(b''.join(open(os.path.join(ROOT, 'site/assets', f), 'rb').read
 
 OWNER = {'da': 'Drevet af', 'en': 'Run by', 'de': 'Geführt von', 'sv': 'Drivs av'}
 
+
+# Julekalender-banner (1.–24. dec 2026). Slet filen julekalender-banner.html efter jul, så forsvinder banneret.
+_JKB = Path(__file__).with_name("julekalender-banner.html")
+JK_BANNER = _JKB.read_text(encoding="utf-8") if _JKB.exists() else ""
 
 def t(d, lang):
     return d.get(lang) or d.get('da') if isinstance(d, dict) else d
@@ -186,7 +191,7 @@ def home(lang):
     body = f'''<section class="hero"><img class="bg" src="{img(h['img'])}" alt="{e(t(h['alt'], lang))}" fetchpriority="high">
 <div class="wrap"><img class="logo" src="{img(COMMON['logo'])}" alt="" width="96" height="96">
 <p class="kicker">{e(t(h['kicker'], lang))}</p><h1>{e(t(h['h1'], lang))}</h1><p>{e(t(h['text'], lang))}</p>
-<div class="btns"><a class="btn" href="{href(lang, 'bordbestilling')}">{e(t(h['btn1'], lang))}</a><a class="btn ghost" href="{href(lang, 'menukort')}">{e(t(h['btn2'], lang))}</a></div></div></section>
+<div class="btns"><a class="btn" href="{href(lang, 'bordbestilling')}">{e(t(h['btn1'], lang))}</a><a class="btn ghost" href="{href(lang, 'menukort')}">{e(t(h['btn2'], lang))}</a></div></div></section>{JK_BANNER if lang == 'da' else ''}
 <section class="sec center"><div class="wrap narrow"><p class="kicker">{e(t(H['notice']['kicker'], lang))}</p><h2>{e(t(H['notice']['h2'], lang))}</h2>
 <p class="lead" style="margin:0 auto">{e(t(H['notice']['text'], lang))}</p><div class="btns"><a class="btn" href="{href(lang, 'bordbestilling')}">{e(t(H['notice']['btn'], lang))}</a></div></div></section>
 <section class="sec" style="padding-top:0"><div class="wrap"><div class="center"><p class="kicker">{e(t(xm['kicker'], lang))}</p><h2>{e(t(xm['h2'], lang))}</h2></div>

@@ -1,0 +1,27 @@
+<!-- Klippens Julekalender – banner til de andre hjemmesider. Skjuler sig selv efter 24. december. -->
+<aside class="jk-banner" id="jk-banner" aria-label="Klippens Julekalender">
+<style>
+.jk-banner{--jk-red:#a8322d;--jk-ink:#2b2420;--jk-paper:#f4ead7;margin:40px auto;max-width:1080px;padding:0 20px;box-sizing:border-box}
+.jk-banner *{box-sizing:border-box}
+.jk-banner a.jk-card{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.15fr);background:var(--jk-paper);border:1px solid #d9c7a3;border-radius:6px;overflow:hidden;text-decoration:none;color:var(--jk-ink);box-shadow:0 10px 30px -18px rgba(60,30,10,.45);transition:transform .2s ease,box-shadow .2s ease}
+.jk-banner a.jk-card:hover{transform:translateY(-2px);box-shadow:0 16px 36px -18px rgba(60,30,10,.55)}
+.jk-banner .jk-img{background:#1f3456 url(https://julekalender.hotelklippen.dk/mail/banner.jpg) center/cover no-repeat;min-height:240px}
+.jk-banner .jk-txt{padding:30px 34px;display:flex;flex-direction:column;justify-content:center;gap:10px;border-left:6px double var(--jk-red)}
+.jk-banner .jk-k{font:600 12px/1.2 Georgia,serif;letter-spacing:.22em;text-transform:uppercase;color:#4a6b3a;margin:0}
+.jk-banner .jk-h{font:400 clamp(26px,3.2vw,36px)/1.1 Georgia,'Times New Roman',serif;color:var(--jk-red);margin:0}
+.jk-banner .jk-p{font:400 16px/1.55 Georgia,serif;margin:0;color:#4b4038}
+.jk-banner .jk-btn{align-self:flex-start;margin-top:6px;background:var(--jk-red);color:#fff;font:600 15px/1 Georgia,serif;padding:13px 20px;border-radius:3px;outline:1px solid var(--jk-red);outline-offset:3px}
+.jk-banner a.jk-card:hover .jk-btn{background:#8e2622}
+@media (max-width:720px){.jk-banner a.jk-card{grid-template-columns:1fr}.jk-banner .jk-img{min-height:190px}.jk-banner .jk-txt{border-left:0;border-top:6px double var(--jk-red);padding:24px 22px}}
+</style>
+<a class="jk-card" href="https://www.hotelklippen.com/julekalender?utm_source=jylkat-bar.dk&amp;utm_medium=banner&amp;utm_campaign=julekalender2026">
+<span class="jk-img" role="img" aria-label="Tegning af Gudhjem med julekalenderens låger"></span>
+<span class="jk-txt">
+<span class="jk-k">Klippens Julekalender · 1.–24. december</span>
+<span class="jk-h">En præmie bag hver låge</span>
+<span class="jk-p">Åbn dagens låge i den tegnede julekalender over Gudhjem, og vær med i lodtrækningen om ophold, juleplatter, gløgg og gavekort. Det er gratis at være med.</span>
+<span class="jk-btn">Åbn julekalenderen →</span>
+</span>
+</a>
+<script>(function(){if(Date.now()>Date.UTC(2026,11,24,23,0)){var b=document.getElementById('jk-banner');if(b)b.remove();}})();</script>
+</aside>

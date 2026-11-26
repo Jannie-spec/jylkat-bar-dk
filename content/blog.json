@@ -1,80 +1,340 @@
 {
  "slug": "blog",
- "title": {"da":"Blog - Jylkat Bar","en":"Blog - Jylkat Bar","de":"Blog - Jylkat Bar","sv":"Blogg - Jylkat Bar"},
- "desc": {"da":"Læs nyheder og historier fra Jylkat, baren ved Gudhjem Havn på Bornholm, om nye drinks, arrangementer og livet ved havnen.","en":"Read news and stories from Jylkat, the bar by Gudhjem Harbour, Bornholm: new drinks, upcoming events and life by the harbour.","de":"Lesen Sie Neuigkeiten und Geschichten von Jylkat, der Bar am Hafen von Gudhjem auf Bornholm, über neue Drinks, Events und das Hafenleben.","sv":"Läs nyheter och historier från Jylkat, baren vid Gudhjem hamn på Bornholm, om nya drinkar, event och livet vid hamnen."},
- "kicker": {"da":"BLOG","en":"BLOG","de":"BLOG","sv":"BLOGG"},
- "h1": {"da":"Nyt fra Jylkat Bar","en":"News from Jylkat Bar","de":"Neuigkeiten von Jylkat Bar","sv":"Nytt från Jylkat Bar"},
- "note": {"da":"","en":"Posts are written in Danish.","de":"Beiträge sind auf Dänisch verfasst.","sv":"Inläggen är skrivna på danska."},
+ "title": {
+  "da": "Blog - Jylkat Bar",
+  "en": "Blog - Jylkat Bar",
+  "de": "Blog - Jylkat Bar",
+  "sv": "Blogg - Jylkat Bar"
+ },
+ "desc": {
+  "da": "Læs nyheder og historier fra Jylkat, baren ved Gudhjem Havn på Bornholm, om nye drinks, arrangementer og livet ved havnen.",
+  "en": "Read news and stories from Jylkat, the bar by Gudhjem Harbour, Bornholm: new drinks, upcoming events and life by the harbour.",
+  "de": "Lesen Sie Neuigkeiten und Geschichten von Jylkat, der Bar am Hafen von Gudhjem auf Bornholm, über neue Drinks, Events und das Hafenleben.",
+  "sv": "Läs nyheter och historier från Jylkat, baren vid Gudhjem hamn på Bornholm, om nya drinkar, event och livet vid hamnen."
+ },
+ "kicker": {
+  "da": "BLOG",
+  "en": "BLOG",
+  "de": "BLOG",
+  "sv": "BLOGG"
+ },
+ "h1": {
+  "da": "Nyt fra Jylkat Bar",
+  "en": "News from Jylkat Bar",
+  "de": "Neuigkeiten von Jylkat Bar",
+  "sv": "Nytt från Jylkat Bar"
+ },
+ "note": {
+  "da": "",
+  "en": "Posts are written in Danish.",
+  "de": "Beiträge sind auf Dänisch verfasst.",
+  "sv": "Inläggen är skrivna på danska."
+ },
  "back": "← Tilbage til bloggen",
  "posts": [
-  {"slug":"juleanretning-og-julefrokost-pa-jylkat","date":"2026-10-20","tag":"NYHEDER",
-   "title":"Juleanretning og julefrokost på Jylkat",
-   "excerpt":"Fra 27. november til 20. december serverer vi juleanretning i teltet på havnen, alle dage kl. 12-22.",
-   "desc":"Fra 27. november til 20. december serverer Jylkat juleanretning i teltet på havnen i Gudhjem, alle dage kl. 12-22. Julefrokost, julemusikquiz og bordbestilling.",
-   "img":"/media/2026/11/juletelt-2026-aften.jpg","alt":"Juleteltet på Jylkat med julekugler, kranse og lune skind på stolene",
-   "body":[
-    ["p","Fra 27. november til 20. december bliver teltet på havnen i Gudhjem til julestue. Vi serverer juleanretning alle dage kl. 12-22 til 375 kr. pr. kuvert. Menuen: kryddersild fra Christiansø, hummersalat, røget laks, roastbeef, julemedister med rå syltet rødkål og Jyledog med confiteret and."],
-    ["h2","Julefrokost"],
-    ["p","Kommer I fra arbejdet, familien eller vennerne, får I jeres eget bord. Der er ingen minimum eller maksimum på antal kuverter, og vil I have hele stedet for jer selv, finder vi en løsning."],
-    ["h2","Jul i Gudhjem 4.-6. december"],
-    ["p","Weekenden 4.-6. december er der julemarked i Brøddegade, og lørdag 5. december kl. 17 holder vi julemusikquiz på Jylkat. Det er gratis at være med, og der er gode præmier."],
-    ["h2","Bestil bord"],
-    ["p","Book på <a href=\"/bordbestilling\">jylkat-bar.dk/bordbestilling</a>, ring på <a href=\"tel:+4531688829\">31 68 88 29</a> eller skriv til <a href=\"mailto:info@jylkat-bar.dk\">info@jylkat-bar.dk</a>."]
-   ]},
-  {"slug":"efterarsmenuen-er-landet-pa-jylkat","date":"2026-10-06","tag":"",
-   "title":"Efterårsmenuen er landet på Jylkat",
-   "excerpt":"Hokkaidosuppe og Dirty Cowboy er nye på menuen, og jyldog og hummerdog er her stadig. Spis i teltet ved havnen eller tag det med hjem.",
-   "desc":"Hokkaidosuppe og Dirty Cowboy er nye på efterårsmenuen hos Jylkat i Gudhjem, og jyldog og hummerdog er her stadig. Spis i teltet ved havnen eller tag det med hjem.",
-   "img":"/media/2026/09/Jyldog-scaled.jpeg","alt":"Jyldog med rødløg og spiselige blomster",
-   "body":[
-    ["p","Når aftenerne bliver mørkere og luften lidt køligere, skal der lidt mere varme på tallerkenen. Derfor har vi lavet en efterårsmenu, som passer til en eftermiddag i teltet eller en aften ved havnen."],
-    ["h2","Nyt på menuen"],
-    ["p","Hokkaidosuppe – cremet suppe på hokkaidogræskar med ristede solsikkekerner, crème fraîche og olivenolie, serveret med surdejsbrød. 85 kr."],
-    ["p","Dirty Cowboy – smørstegt toast med roastbeef, mayo, karamelliserede løg og smeltet ost, serveret med sprøde kartoffelchips. 95 kr."],
-    ["h2","Favoritterne er her stadig"],
-    ["p","Jyldog med frankfurter fra Bornholmer Slagteren. 85 kr."],
-    ["p","Hummerdog. 145 kr."],
-    ["p","Open Sandwich med Ibérico-skinke og trøffelmayo. 135 kr."],
-    ["p","Ibérico Bellota. 125 kr."],
-    ["p","Til at dele – surdej med hjemmepisket smør, popcorn og trøffelchips."],
-    ["h2","Spis her eller tag med hjem"],
-    ["p","Alle retter kan også fås som take-away. Så kan I hente aftensmaden på vej hjem fra stranden eller efter en tur rundt i byen."],
-    ["h2","Åbningstider"],
-    ["p","Vi åbner lørdag 10. oktober og har derefter åbent alle dage kl. 12–21 frem til 2. november. Fredag 16. oktober indvier vi det nye telt, og lørdag 17. oktober kl. 17 er der Halloween-musikbingo i teltet."],
-    ["p","Fra 27. november til 20. december har vi åbent alle dage kl. 12–22. Uden for de perioder åbner vi efter aftale, og I kan stadig booke arrangementer hos os."],
-    ["p","Se hele <a href=\"/menukort\">menukortet med priser her</a>. Book bord <a href=\"/bordbestilling\">her på siden</a> eller ring på <a href=\"tel:+4531688829\">31 68 88 29</a>."]
-   ]},
-  {"slug":"efterarsferie-pa-havnen-i-gudhjem-det-sker-11-18-oktober","date":"2026-10-06","tag":"",
-   "title":"Efterårsferie på havnen i Gudhjem: det sker 11.–18. oktober",
-   "excerpt":"Græskarudskæring, edderkoppejagt, indvielse af teltet fredag og Halloween-musikbingo lørdag. Her er alt, der sker på havnen i Gudhjem i efterårsferien.",
-   "desc":"Græskarudskæring, edderkoppejagt, indvielse af teltet og Halloween-musikbingo. Her er alt, der sker på havnen i Gudhjem i efterårsferien 11.–18. oktober.",
-   "img":"/media/2026/10/halloween-graeskar.jpg","alt":"Udskårne græskar på havnen i Gudhjem",
-   "body":[
-    ["p","Efterårsferien er en af de hyggeligste uger i Gudhjem. Byen er pyntet op til efteråret, der er græskar og lys rundt om havnen, og der er masser at lave for både børn og voksne. Her er, hvad der sker hos os og vores naboer i uge 42."],
-    ["h2","Græskarudskæring på Skt. Jørgens Gaard"],
-    ["p","Mandag 12. til fredag 16. oktober kl. 11.30–15 kan børn og voksne skære græskar i gården på Skt. Jørgens Gaard, lige ved siden af Jylkat. Græskarrene står klar."],
-    ["h2","Edderkoppejagt i byen"],
-    ["p","Hele ugen fra 11. til 18. oktober kl. 9–17 er der edderkoppejagt i Gudhjems gader med start fra Førder på Brøddegade 28. En god tur for børnefamilier, der gerne vil se byen på en ny måde."],
-    ["h2","Fredag: vi indvier teltet"],
-    ["p","Fredag 16. oktober kl. 12–21 indvier vi vores nye telt på terrassen, og øl koster 50 kr. hele dagen. Nu kan I sidde lunt ved havnen, også når det blæser og bliver mørkt tidligt."],
-    ["h2","Lørdag: Halloween-musikbingo"],
-    ["p","Lørdag 17. oktober kl. 17–20 holder vi Halloween-musikbingo i teltet. Kom gerne udklædt, sæt dig med en drink eller noget fra efterårsmenuen, og gæt sangene."],
-    ["h2","Mad og drikke hele ugen"],
-    ["p","Vores efterårsmenu byder blandt andet på jyldog, hummerdog, varm hokkaidosuppe og ibérico med surdejsbrød. Alt kan også tages med hjem. Se hele <a href=\"/menukort\">menukortet her</a>."],
-    ["p","Vi har åbent hver dag kl. 12–21 i efterårsferien. Vi glæder os til at se jer på havnen."]
-   ]},
-  {"slug":"jylkat-bar-telt-varme-efterar-vinter","date":"2026-10-02","tag":"NYHEDER",
-   "title":"Jylkat Bar har fået telt: nu holder vi varmen hele efteråret og vinteren",
-   "excerpt":"Vi har investeret i et nyt, pænt telt, så I kan nyde havnestemningen på Jylkat Bar, selv når temperaturen falder.",
-   "desc":"Jylkat Bar ved Gudhjem Havn har fået et nyt telt, så I kan nyde havnestemningen og en drink med havudsigt, selv når temperaturen falder.",
-   "img":"/media/2026/10/jylkat-telt-vejenlys.jpg","alt":"Jylkats telt ved Gudhjem Havn med lys",
-   "body":[
-    ["p","Godt nyt fra kajen: Jylkat Bar har fået et nyt telt."],
-    ["p","Vi ved, hvor meget I holder af at sidde ude med udsigt til havnen, og nu behøver I ikke stoppe med det, bare fordi luften bliver kølig. Teltet gør det muligt for os at holde terrassen åben og hyggelig i de koldere måneder, så I stadig kan nyde jeres favoritdrink med havudsigt, uanset vejret."],
-    ["p","Teltet er lunt, vindtæt og indrettet, så stemningen stadig føles som en rigtig havnebar, bare med lidt ekstra læ. Vi har tænkt os at tænde op under varmelamperne, finde tæpper frem og holde den samme afslappede atmosfære, som I kender fra sommeren."],
-    ["img","/media/2026/10/jylkat-telt-efteraar1.jpg","Lunt inde i Jylkats telt med skind på stolene"],
-    ["p","Så uanset om I kommer forbi til en stille hverdagsdrink eller samler vennerne til en hyggelig aften, er der nu plads til jer på Jylkat Bar hele året rundt."],
-    ["p","Vi glæder os til at se jer, også når det bliver koldt."]
-   ]}
+  {
+   "slug": "frokost-i-gudhjem-i-december",
+   "date": "2026-11-26",
+   "tag": "JUL",
+   "title": "Frokost i Gudhjem i december",
+   "seo_title": "Frokost i Gudhjem i december | Jylkat ved havnen",
+   "excerpt": "Juleteltet ved havnen er åbent alle dage fra kl. 12 med juleanretning, hummerdog og gløgg.",
+   "desc": "Spis frokost i det lune juletelt ved Gudhjem Havn. Juleanretning, hummerdog og gløgg. Åbent alle dage kl. 12 til 22 frem til 20. december.",
+   "img": "/media/2026/11/juletelt-2026-havudsigt.jpg",
+   "alt": "Bord i juleteltet på Jylkat med udsigt til havet i Gudhjem",
+   "body": [
+    [
+     "p",
+     "Leder du efter et sted at spise frokost i Gudhjem i december? Så kom ned til havnen. Juleteltet på Jylkat er åbent alle dage fra kl. 12, og du sidder lunt og godt med skind på stolene og udsigt til bølgerne ved molen."
+    ],
+    [
+     "p",
+     "Til frokost kan du vælge vores juleanretning til 375 kr. med blandt andet kryddersild fra Christiansø, hummersalat, julemedister og Jyldog med confiteret and. Er du til noget mindre, så tag en hummerdog, roserejer eller en Jyldog fra den almindelige menu."
+    ],
+    [
+     "p",
+     "Det er et godt stop, hvis du er på juletur på Bornholm, går en tur langs kysten eller handler i Gudhjem. Der er gløgg, varm chokolade og juledrinks i baren, og du er velkommen både alene, to og to eller med hele familien."
+    ],
+    [
+     "p",
+     "Vi har åbent alle dage kl. 12 til 22 frem til 20. december. Book gerne bord, hvis I er mange, eller kig bare forbi. Book bord på <a href=\"/bordbestilling\">jylkat-bar.dk/bordbestilling</a> eller ring på <a href=\"tel:+4531688829\">31 68 88 29</a>."
+    ]
+   ]
+  },
+  {
+   "slug": "aftensmad-i-gudhjem-om-vinteren",
+   "date": "2026-11-26",
+   "tag": "JUL",
+   "title": "Aftensmad i Gudhjem om vinteren",
+   "seo_title": "Aftensmad i Gudhjem om vinteren | Åbent alle dage i december",
+   "excerpt": "Frem til 20. december har vi åbent alle dage til kl. 22 i juleteltet ved havnen.",
+   "desc": "Mange steder i Gudhjem holder lukket om vinteren. Jylkat har åbent alle dage til kl. 22 frem til 20. december med juleanretning, hummerdog og gløgg.",
+   "img": "/media/2026/11/juletelt-2026-aften.jpg",
+   "alt": "Juleteltet på Jylkat om aftenen med lyskæder og julekugler",
+   "body": [
+    [
+     "p",
+     "Om vinteren er det ikke altid let at finde et sted at spise aftensmad i Gudhjem. Frem til 20. december har vi åbent alle dage til kl. 22 i juleteltet ved havnen."
+    ],
+    [
+     "p",
+     "Når det bliver mørkt, tænder vi lyskæderne, og teltet bliver det hyggeligste sted på havnen. Du sidder inde i varmen, men føler dig stadig ude ved havet."
+    ],
+    [
+     "p",
+     "Spis juleanretningen til 375 kr., eller vælg fra menukortet med hummerdog, roserejer og Jyldog. Til maden har vi lokale øl, vin, juledrinks og gløgg."
+    ],
+    [
+     "p",
+     "Overnatter du på Klippen Hotel, er der kun et par minutters gang ned til teltet."
+    ],
+    [
+     "p",
+     "Book bord på <a href=\"/bordbestilling\">jylkat-bar.dk/bordbestilling</a> eller ring på <a href=\"tel:+4531688829\">31 68 88 29</a>."
+    ]
+   ]
+  },
+  {
+   "slug": "gloegg-og-julehygge-i-gudhjem",
+   "date": "2026-11-26",
+   "tag": "JUL",
+   "title": "Gløgg og julehygge ved havnen i Gudhjem",
+   "seo_title": "Gløgg i Gudhjem | Julehygge i juleteltet ved havnen",
+   "excerpt": "Varm gløgg, varm chokolade og juledrinks i juleteltet, alle dage fra kl. 12.",
+   "desc": "Varm gløgg, varm chokolade og juledrinks i juleteltet på Jylkat ved Gudhjem Havn. Åbent alle dage kl. 12 til 22 frem til 20. december.",
+   "img": "/media/2026/11/juletelt-2026-lampe.jpg",
+   "alt": "Lampe og julepynt i juleteltet på Jylkat",
+   "body": [
+    [
+     "p",
+     "Der er noget særligt ved en kop varm gløgg, mens vinden blæser udenfor. I juleteltet på Jylkat kan du få netop det, alle dage fra kl. 12."
+    ],
+    [
+     "p",
+     "Vi serverer gløgg, varm chokolade og juledrinks, og teltet er pyntet med julekugler, kranse og lyskæder. Kom efter en gåtur ved kysten, efter juleindkøbene i byen eller som en lille pause på vej rundt på Bornholm."
+    ],
+    [
+     "p",
+     "Under Jul i Gudhjem 4. til 6. december er der ekstra liv på havnen, og lørdag 5. december kl. 17 holder vi julemusikquiz. Det er gratis at være med."
+    ],
+    [
+     "p",
+     "Vi har åbent alle dage kl. 12 til 22 frem til 20. december. Book bord på <a href=\"/bordbestilling\">jylkat-bar.dk/bordbestilling</a> eller ring på <a href=\"tel:+4531688829\">31 68 88 29</a>."
+    ]
+   ]
+  },
+  {
+   "slug": "juleanretning-og-julefrokost-pa-jylkat",
+   "date": "2026-10-20",
+   "tag": "NYHEDER",
+   "title": "Juleanretning og julefrokost på Jylkat",
+   "excerpt": "Fra 27. november til 20. december serverer vi juleanretning i teltet på havnen, alle dage kl. 12-22.",
+   "desc": "Fra 27. november til 20. december serverer Jylkat juleanretning i teltet på havnen i Gudhjem, alle dage kl. 12-22. Julefrokost, julemusikquiz og bordbestilling.",
+   "img": "/media/2026/11/juletelt-2026-aften.jpg",
+   "alt": "Juleteltet på Jylkat med julekugler, kranse og lune skind på stolene",
+   "body": [
+    [
+     "p",
+     "Fra 27. november til 20. december bliver teltet på havnen i Gudhjem til julestue. Vi serverer juleanretning alle dage kl. 12-22 til 375 kr. pr. kuvert. Menuen: kryddersild fra Christiansø, hummersalat, røget laks, roastbeef, julemedister med rå syltet rødkål og Jyledog med confiteret and."
+    ],
+    [
+     "h2",
+     "Julefrokost"
+    ],
+    [
+     "p",
+     "Kommer I fra arbejdet, familien eller vennerne, får I jeres eget bord. Der er ingen minimum eller maksimum på antal kuverter, og vil I have hele stedet for jer selv, finder vi en løsning."
+    ],
+    [
+     "h2",
+     "Jul i Gudhjem 4.-6. december"
+    ],
+    [
+     "p",
+     "Weekenden 4.-6. december er der julemarked i Brøddegade, og lørdag 5. december kl. 17 holder vi julemusikquiz på Jylkat. Det er gratis at være med, og der er gode præmier."
+    ],
+    [
+     "h2",
+     "Bestil bord"
+    ],
+    [
+     "p",
+     "Book på <a href=\"/bordbestilling\">jylkat-bar.dk/bordbestilling</a>, ring på <a href=\"tel:+4531688829\">31 68 88 29</a> eller skriv til <a href=\"mailto:info@jylkat-bar.dk\">info@jylkat-bar.dk</a>."
+    ]
+   ]
+  },
+  {
+   "slug": "efterarsmenuen-er-landet-pa-jylkat",
+   "date": "2026-10-06",
+   "tag": "",
+   "title": "Efterårsmenuen er landet på Jylkat",
+   "excerpt": "Hokkaidosuppe og Dirty Cowboy er nye på menuen, og jyldog og hummerdog er her stadig. Spis i teltet ved havnen eller tag det med hjem.",
+   "desc": "Hokkaidosuppe og Dirty Cowboy er nye på efterårsmenuen hos Jylkat i Gudhjem, og jyldog og hummerdog er her stadig. Spis i teltet ved havnen eller tag det med hjem.",
+   "img": "/media/2026/09/Jyldog-scaled.jpeg",
+   "alt": "Jyldog med rødløg og spiselige blomster",
+   "body": [
+    [
+     "p",
+     "Når aftenerne bliver mørkere og luften lidt køligere, skal der lidt mere varme på tallerkenen. Derfor har vi lavet en efterårsmenu, som passer til en eftermiddag i teltet eller en aften ved havnen."
+    ],
+    [
+     "h2",
+     "Nyt på menuen"
+    ],
+    [
+     "p",
+     "Hokkaidosuppe – cremet suppe på hokkaidogræskar med ristede solsikkekerner, crème fraîche og olivenolie, serveret med surdejsbrød. 85 kr."
+    ],
+    [
+     "p",
+     "Dirty Cowboy – smørstegt toast med roastbeef, mayo, karamelliserede løg og smeltet ost, serveret med sprøde kartoffelchips. 95 kr."
+    ],
+    [
+     "h2",
+     "Favoritterne er her stadig"
+    ],
+    [
+     "p",
+     "Jyldog med frankfurter fra Bornholmer Slagteren. 85 kr."
+    ],
+    [
+     "p",
+     "Hummerdog. 145 kr."
+    ],
+    [
+     "p",
+     "Open Sandwich med Ibérico-skinke og trøffelmayo. 135 kr."
+    ],
+    [
+     "p",
+     "Ibérico Bellota. 125 kr."
+    ],
+    [
+     "p",
+     "Til at dele – surdej med hjemmepisket smør, popcorn og trøffelchips."
+    ],
+    [
+     "h2",
+     "Spis her eller tag med hjem"
+    ],
+    [
+     "p",
+     "Alle retter kan også fås som take-away. Så kan I hente aftensmaden på vej hjem fra stranden eller efter en tur rundt i byen."
+    ],
+    [
+     "h2",
+     "Åbningstider"
+    ],
+    [
+     "p",
+     "Vi åbner lørdag 10. oktober og har derefter åbent alle dage kl. 12–21 frem til 2. november. Fredag 16. oktober indvier vi det nye telt, og lørdag 17. oktober kl. 17 er der Halloween-musikbingo i teltet."
+    ],
+    [
+     "p",
+     "Fra 27. november til 20. december har vi åbent alle dage kl. 12–22. Uden for de perioder åbner vi efter aftale, og I kan stadig booke arrangementer hos os."
+    ],
+    [
+     "p",
+     "Se hele <a href=\"/menukort\">menukortet med priser her</a>. Book bord <a href=\"/bordbestilling\">her på siden</a> eller ring på <a href=\"tel:+4531688829\">31 68 88 29</a>."
+    ]
+   ]
+  },
+  {
+   "slug": "efterarsferie-pa-havnen-i-gudhjem-det-sker-11-18-oktober",
+   "date": "2026-10-06",
+   "tag": "",
+   "title": "Efterårsferie på havnen i Gudhjem: det sker 11.–18. oktober",
+   "excerpt": "Græskarudskæring, edderkoppejagt, indvielse af teltet fredag og Halloween-musikbingo lørdag. Her er alt, der sker på havnen i Gudhjem i efterårsferien.",
+   "desc": "Græskarudskæring, edderkoppejagt, indvielse af teltet og Halloween-musikbingo. Her er alt, der sker på havnen i Gudhjem i efterårsferien 11.–18. oktober.",
+   "img": "/media/2026/10/halloween-graeskar.jpg",
+   "alt": "Udskårne græskar på havnen i Gudhjem",
+   "body": [
+    [
+     "p",
+     "Efterårsferien er en af de hyggeligste uger i Gudhjem. Byen er pyntet op til efteråret, der er græskar og lys rundt om havnen, og der er masser at lave for både børn og voksne. Her er, hvad der sker hos os og vores naboer i uge 42."
+    ],
+    [
+     "h2",
+     "Græskarudskæring på Skt. Jørgens Gaard"
+    ],
+    [
+     "p",
+     "Mandag 12. til fredag 16. oktober kl. 11.30–15 kan børn og voksne skære græskar i gården på Skt. Jørgens Gaard, lige ved siden af Jylkat. Græskarrene står klar."
+    ],
+    [
+     "h2",
+     "Edderkoppejagt i byen"
+    ],
+    [
+     "p",
+     "Hele ugen fra 11. til 18. oktober kl. 9–17 er der edderkoppejagt i Gudhjems gader med start fra Førder på Brøddegade 28. En god tur for børnefamilier, der gerne vil se byen på en ny måde."
+    ],
+    [
+     "h2",
+     "Fredag: vi indvier teltet"
+    ],
+    [
+     "p",
+     "Fredag 16. oktober kl. 12–21 indvier vi vores nye telt på terrassen, og øl koster 50 kr. hele dagen. Nu kan I sidde lunt ved havnen, også når det blæser og bliver mørkt tidligt."
+    ],
+    [
+     "h2",
+     "Lørdag: Halloween-musikbingo"
+    ],
+    [
+     "p",
+     "Lørdag 17. oktober kl. 17–20 holder vi Halloween-musikbingo i teltet. Kom gerne udklædt, sæt dig med en drink eller noget fra efterårsmenuen, og gæt sangene."
+    ],
+    [
+     "h2",
+     "Mad og drikke hele ugen"
+    ],
+    [
+     "p",
+     "Vores efterårsmenu byder blandt andet på jyldog, hummerdog, varm hokkaidosuppe og ibérico med surdejsbrød. Alt kan også tages med hjem. Se hele <a href=\"/menukort\">menukortet her</a>."
+    ],
+    [
+     "p",
+     "Vi har åbent hver dag kl. 12–21 i efterårsferien. Vi glæder os til at se jer på havnen."
+    ]
+   ]
+  },
+  {
+   "slug": "jylkat-bar-telt-varme-efterar-vinter",
+   "date": "2026-10-02",
+   "tag": "NYHEDER",
+   "title": "Jylkat Bar har fået telt: nu holder vi varmen hele efteråret og vinteren",
+   "excerpt": "Vi har investeret i et nyt, pænt telt, så I kan nyde havnestemningen på Jylkat Bar, selv når temperaturen falder.",
+   "desc": "Jylkat Bar ved Gudhjem Havn har fået et nyt telt, så I kan nyde havnestemningen og en drink med havudsigt, selv når temperaturen falder.",
+   "img": "/media/2026/10/jylkat-telt-vejenlys.jpg",
+   "alt": "Jylkats telt ved Gudhjem Havn med lys",
+   "body": [
+    [
+     "p",
+     "Godt nyt fra kajen: Jylkat Bar har fået et nyt telt."
+    ],
+    [
+     "p",
+     "Vi ved, hvor meget I holder af at sidde ude med udsigt til havnen, og nu behøver I ikke stoppe med det, bare fordi luften bliver kølig. Teltet gør det muligt for os at holde terrassen åben og hyggelig i de koldere måneder, så I stadig kan nyde jeres favoritdrink med havudsigt, uanset vejret."
+    ],
+    [
+     "p",
+     "Teltet er lunt, vindtæt og indrettet, så stemningen stadig føles som en rigtig havnebar, bare med lidt ekstra læ. Vi har tænkt os at tænde op under varmelamperne, finde tæpper frem og holde den samme afslappede atmosfære, som I kender fra sommeren."
+    ],
+    [
+     "img",
+     "/media/2026/10/jylkat-telt-efteraar1.jpg",
+     "Lunt inde i Jylkats telt med skind på stolene"
+    ],
+    [
+     "p",
+     "Så uanset om I kommer forbi til en stille hverdagsdrink eller samler vennerne til en hyggelig aften, er der nu plads til jer på Jylkat Bar hele året rundt."
+    ],
+    [
+     "p",
+     "Vi glæder os til at se jer, også når det bliver koldt."
+    ]
+   ]
+  }
  ]
 }

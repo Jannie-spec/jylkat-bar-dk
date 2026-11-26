@@ -197,7 +197,7 @@ def home(lang):
 <section class="sec" style="padding-top:0"><div class="wrap"><div class="center"><p class="kicker">{e(t(xm['kicker'], lang))}</p><h2>{e(t(xm['h2'], lang))}</h2></div>
 <div class="grid g3" style="margin-top:28px">{''.join(f'<div class="card"><h3>{e(t(i["h3"], lang))}</h3><p>{e(t(i["p"], lang))}</p></div>' for i in xm['items'])}</div>
 <div class="center"><div class="btns"><a class="btn" href="{href(lang, 'bordbestilling')}">{e(t(xm['btn'], lang))}</a></div>
-<p class="small" style="margin-top:14px">{e(t(xm['small'], lang))}</p></div></div></section>
+<p class="small" style="margin-top:14px">{e(t(xm['small'], lang))}</p>{xmas_links(xm, lang)}</div></div></section>
 <section class="sec sage"><div class="wrap"><div class="split-head"><div><p class="kicker">{e(t(fd['kicker'], lang))}</p><h2>{e(t(fd['h2'], lang))}</h2><p class="tag">{e(t(fd['tag'], lang))}</p></div><p>{e(t(fd['text'], lang))}</p></div>
 <div class="grid g3">{''.join(f'<article class="dish"><img src="{img(d["img"])}" alt="{e(t(d["name"], lang))}" loading="lazy"><div class="body"><div class="row"><h3>{e(t(d["name"], lang))}</h3><span class="price">{d["price"]}</span></div><p class="small">{e(t(d["p"], lang))}</p></div></article>' for d in fd['dishes'])}</div>
 <div class="center"><div class="btns"><a class="btn" href="{href(lang, 'menukort')}">{e(t(fd['btn'], lang))}</a></div></div></div></section>
@@ -226,6 +226,13 @@ def tr_wine(name, lang):
     for k, v in MENU['countries'].items():
         name = re.sub(r'(?<![\wæøå])' + re.escape(k) + r'(?![\wæøå])', v[lang], name)
     return name
+
+
+def xmas_links(xm, lang):
+    L = xm.get('links') if lang == 'da' else None
+    if not L:
+        return ''
+    return '<p class="small">Læs også: ' + ' · '.join(f'<a href="{href("da", "blog/" + s)}">{e(n)}</a>' for s, n in L) + '</p>'
 
 
 def xmas_html(M, lang):
@@ -389,7 +396,7 @@ def blog_post(p):
            "mainEntityOfPage": DOMAIN + path('da', 'blog/' + p['slug']),
            "author": {"@type": "Organization", "name": "Jylkat Bar", "url": DOMAIN + "/"},
            "publisher": {"@id": DOMAIN + "/#bar"}}]
-    return page('da', 'blog/' + p['slug'], p['title'] + ' - Jylkat Bar', p['desc'], body, langs=['da'], ld=ld, og_img=p['img'], current='blog')
+    return page('da', 'blog/' + p['slug'], p.get('seo_title', p['title'] + ' - Jylkat Bar'), p['desc'], body, langs=['da'], ld=ld, og_img=p['img'], current='blog')
 
 
 def iso(d):

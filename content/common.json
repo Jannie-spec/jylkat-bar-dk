@@ -135,10 +135,10 @@
   }
  },
  "hours": {
-  "da": "2.–26. november: lukket, arrangementer efter aftale. 27. november – 20. december: alle dage kl. 12–22. Fra 21. december: efter aftale.",
-  "en": "2–26 November: closed, events by arrangement. 27 November – 20 December: every day 12–22. From 21 December: by arrangement.",
-  "de": "2.–26. November: geschlossen, Veranstaltungen nach Vereinbarung. 27. November – 20. Dezember: täglich 12–22 Uhr. Ab 21. Dezember: nach Vereinbarung.",
-  "sv": "2–26 november: stängt, evenemang efter överenskommelse. 27 november – 20 december: alla dagar 12–22. Från 21 december: efter överenskommelse."
+  "da": "2.–26. november: lukket, arrangementer efter aftale. 27. november – 20. december: alle dage kl. 12–21. Fra 21. december: efter aftale.",
+  "en": "2–26 November: closed, events by arrangement. 27 November – 20 December: every day 12–21. From 21 December: by arrangement.",
+  "de": "2.–26. November: geschlossen, Veranstaltungen nach Vereinbarung. 27. November – 20. Dezember: täglich 12–21 Uhr. Ab 21. Dezember: nach Vereinbarung.",
+  "sv": "2–26 november: stängt, evenemang efter överenskommelse. 27 november – 20 december: alla dagar 12–21. Från 21 december: efter överenskommelse."
  },
  "hours_ld": [
   {
@@ -152,7 +152,7 @@
     "Sunday"
    ],
    "opens": "12:00",
-   "closes": "22:00",
+   "closes": "21:00",
    "from": "2026-11-27",
    "to": "2026-12-20"
   }

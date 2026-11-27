@@ -823,10 +823,10 @@
   },
   "price": "375 kr",
   "tag": {
-   "da": "Pr. kuvert · serveres alle dage kl. 12–22 i juleteltet fra 27. november til 20. december",
-   "en": "Per person · served every day 12–10 pm in the Christmas tent from 27 November to 20 December",
-   "de": "Pro Person · täglich 12–22 Uhr im Weihnachtszelt vom 27. November bis 20. Dezember",
-   "sv": "Per kuvert · serveras alla dagar kl. 12–22 i jultältet från 27 november till 20 december"
+   "da": "Pr. kuvert · serveres alle dage kl. 12–21 i juleteltet fra 27. november til 20. december",
+   "en": "Per person · served every day 12–9 pm in the Christmas tent from 27 November to 20 December",
+   "de": "Pro Person · täglich 12–21 Uhr im Weihnachtszelt vom 27. November bis 20. Dezember",
+   "sv": "Per kuvert · serveras alla dagar kl. 12–21 i jultältet från 27 november till 20 december"
   },
   "items": [
    {

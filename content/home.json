@@ -7,7 +7,7 @@
   "sv": "Jylkat – bar i Gudhjem med cocktails, vin och barmat"
  },
  "desc": {
-  "da": "Juletelt ved Gudhjem Havn med juleanretning, hummerdog og gløgg. Åbent alle dage kl. 12 til 22 frem til 20. december. Book bord.",
+  "da": "Juletelt ved Gudhjem Havn med juleanretning, hummerdog og gløgg. Åbent alle dage kl. 12 til 21 frem til 20. december. Book bord.",
   "en": "Jylkat is a bar in Gudhjem on Bornholm with cocktails, local beer, wine and bar food. Enjoy a relaxed atmosphere and sea views close to the centre of Gudhjem.",
   "de": "Jylkat ist eine Bar in Gudhjem auf Bornholm mit Cocktails, lokalem Bier, Wein und Barfood. Entspannte Stimmung und Meerblick nahe dem Zentrum von Gudhjem.",
   "sv": "Jylkat är en bar i Gudhjem på Bornholm med cocktails, lokal öl, vin och barmat. Njut av avslappnad stämning och havsutsikt nära Gudhjems centrum."
@@ -65,10 +65,10 @@
    "sv": "Jultältet är uppe vid hamnen"
   },
   "text": {
-   "da": "Vi har åbent alle dage kl. 12 til 22 frem til 20. december. Kom ind i varmen med juleanretning, gløgg og udsigt til bølgerne ved molen. Book gerne bord.",
-   "en": "We're open every day from 12 noon to 10 pm until 20 December. Come in from the cold for a Christmas platter, mulled wine and a view of the waves by the pier. Feel free to book a table.",
-   "de": "Wir haben bis zum 20. Dezember täglich von 12 bis 22 Uhr geöffnet. Kommen Sie ins Warme zu Weihnachtsplatte, Glühwein und Blick auf die Wellen an der Mole. Reservieren Sie gern einen Tisch.",
-   "sv": "Vi har öppet alla dagar kl. 12 till 22 fram till 20 december. Kom in i värmen med julanrättning, glögg och utsikt över vågorna vid piren. Boka gärna bord."
+   "da": "Vi har åbent alle dage kl. 12 til 21 frem til 20. december. Kom ind i varmen med juleanretning, gløgg og udsigt til bølgerne ved molen. Book gerne bord.",
+   "en": "We're open every day from 12 noon to 9 pm until 20 December. Come in from the cold for a Christmas platter, mulled wine and a view of the waves by the pier. Feel free to book a table.",
+   "de": "Wir haben bis zum 20. Dezember täglich von 12 bis 21 Uhr geöffnet. Kommen Sie ins Warme zu Weihnachtsplatte, Glühwein und Blick auf die Wellen an der Mole. Reservieren Sie gern einen Tisch.",
+   "sv": "Vi har öppet alla dagar kl. 12 till 21 fram till 20 december. Kom in i värmen med julanrättning, glögg och utsikt över vågorna vid piren. Boka gärna bord."
   },
   "btn": {
    "da": "Book bord",
@@ -99,10 +99,10 @@
      "sv": "Julanrättning 27 november – 20 december"
     },
     "p": {
-     "da": "Alle dage kl. 12–22 serverer vi juleanretning for 375 kr. pr. kuvert: Ruths kryddersild fra Christiansø med rødløg, hummersalat med hummerhaler i en cremet dressing med dild og grønne asparges, røget laks med purløg, citron og sprøde radiser, roastbeef med syltede agurker og hjemmerørt remoulade, julemedister med rå syltet rødkål med appelsin og valnødder, Jyledog med confiteret and, syltede rødløg, sennepsmayo og brændt sesam samt surdejsbrød, rugbrød og pisket smør.",
-     "en": "Every day, 12–10 pm, we serve a Christmas platter for 375 DKK per cover: Ruth's spiced herring from Christiansø with red onion, lobster salad with lobster tails in a creamy dressing with dill and green asparagus, smoked salmon with chives, lemon and crisp radishes, roast beef with pickled cucumber and homemade remoulade, Christmas sausage with raw pickled red cabbage, orange and walnuts, our Jyledog with confit duck, pickled red onion, mustard mayo and toasted sesame, plus sourdough bread, rye bread and whipped butter.",
-     "de": "Täglich von 12–22 Uhr servieren wir eine Weihnachtsplatte für 375 DKK pro Gedeck: Ruths Gewürzhering von Christiansø mit roten Zwiebeln, Hummersalat mit Hummerschwänzen in einem cremigen Dressing mit Dill und grünem Spargel, Räucherlachs mit Schnittlauch, Zitrone und knackigen Radieschen, Roastbeef mit eingelegten Gurken und hausgemachter Remoulade, Weihnachtswurst mit rohem eingelegtem Rotkohl, Orange und Walnüssen, unser Jyledog mit konfierter Ente, eingelegten roten Zwiebeln, Senfmayo und geröstetem Sesam sowie Sauerteigbrot, Roggenbrot und geschlagener Butter.",
-     "sv": "Alla dagar kl. 12–22 serverar vi julanrättning för 375 kr per kuvert: Ruths kryddsill från Christiansø med rödlök, hummersallad med hummerstjärtar i en krämig dressing med dill och grön sparris, rökt lax med gräslök, citron och fräscha rädisor, roastbeef med inlagd gurka och hemgjord remoulad, julkorv med rå inlagd rödkål, apelsin och valnötter, vår Jyledog med konfiterad anka, inlagd rödlök, senapsmajonnäs och rostad sesam samt surdegsbröd, rågbröd och vispat smör."
+     "da": "Alle dage kl. 12–21 serverer vi juleanretning for 375 kr. pr. kuvert: Ruths kryddersild fra Christiansø med rødløg, hummersalat med hummerhaler i en cremet dressing med dild og grønne asparges, røget laks med purløg, citron og sprøde radiser, roastbeef med syltede agurker og hjemmerørt remoulade, julemedister med rå syltet rødkål med appelsin og valnødder, Jyledog med confiteret and, syltede rødløg, sennepsmayo og brændt sesam samt surdejsbrød, rugbrød og pisket smør.",
+     "en": "Every day, 12–9 pm, we serve a Christmas platter for 375 DKK per cover: Ruth's spiced herring from Christiansø with red onion, lobster salad with lobster tails in a creamy dressing with dill and green asparagus, smoked salmon with chives, lemon and crisp radishes, roast beef with pickled cucumber and homemade remoulade, Christmas sausage with raw pickled red cabbage, orange and walnuts, our Jyledog with confit duck, pickled red onion, mustard mayo and toasted sesame, plus sourdough bread, rye bread and whipped butter.",
+     "de": "Täglich von 12–21 Uhr servieren wir eine Weihnachtsplatte für 375 DKK pro Gedeck: Ruths Gewürzhering von Christiansø mit roten Zwiebeln, Hummersalat mit Hummerschwänzen in einem cremigen Dressing mit Dill und grünem Spargel, Räucherlachs mit Schnittlauch, Zitrone und knackigen Radieschen, Roastbeef mit eingelegten Gurken und hausgemachter Remoulade, Weihnachtswurst mit rohem eingelegtem Rotkohl, Orange und Walnüssen, unser Jyledog mit konfierter Ente, eingelegten roten Zwiebeln, Senfmayo und geröstetem Sesam sowie Sauerteigbrot, Roggenbrot und geschlagener Butter.",
+     "sv": "Alla dagar kl. 12–21 serverar vi julanrättning för 375 kr per kuvert: Ruths kryddsill från Christiansø med rödlök, hummersallad med hummerstjärtar i en krämig dressing med dill och grön sparris, rökt lax med gräslök, citron och fräscha rädisor, roastbeef med inlagd gurka och hemgjord remoulad, julkorv med rå inlagd rödkål, apelsin och valnötter, vår Jyledog med konfiterad anka, inlagd rödlök, senapsmajonnäs och rostad sesam samt surdegsbröd, rågbröd och vispat smör."
     }
    },
    {

@@ -53,22 +53,22 @@
  },
  "notice": {
   "kicker": {
-   "da": "LUKKET TIL 27. NOVEMBER",
-   "en": "CLOSED UNTIL 27 NOVEMBER",
-   "de": "GESCHLOSSEN BIS 27. NOVEMBER",
-   "sv": "STÄNGT TILL 27 NOVEMBER"
+   "da": "NU ÅBENT · JULETELT",
+   "en": "NOW OPEN · CHRISTMAS TENT",
+   "de": "JETZT GEÖFFNET · WEIHNACHTSZELT",
+   "sv": "NU ÖPPET · JULTÄLT"
   },
   "h2": {
-   "da": "Vi ses i juleteltet",
-   "en": "See you in the Christmas tent",
-   "de": "Wir sehen uns im Weihnachtszelt",
-   "sv": "Vi ses i jultältet"
+   "da": "Juleteltet er oppe ved havnen",
+   "en": "The Christmas tent is up by the harbour",
+   "de": "Das Weihnachtszelt am Hafen steht",
+   "sv": "Jultältet är uppe vid hamnen"
   },
   "text": {
-   "da": "Teltet er taget ned midlertidigt. Fredag 27. november åbner vi igen med vores juletelt, med juleanretning, julehygge og masser af sjov – og så har vi åbent alle dage frem til 20. december. Book gerne bord allerede nu.",
-   "en": "The tent has been taken down for now. On Friday 27 November we reopen with our Christmas tent, with a Christmas platter, festive cosiness and lots of fun – and we're open every day until 20 December. Feel free to book a table already now.",
-   "de": "Das Zelt ist vorübergehend abgebaut. Am Freitag, 27. November, öffnen wir wieder mit unserem Weihnachtszelt, mit Weihnachtsplatte, gemütlicher Weihnachtsstimmung und viel Spaß – und bis zum 20. Dezember haben wir täglich geöffnet. Reservieren Sie gern schon jetzt einen Tisch.",
-   "sv": "Tältet är nedmonterat tillfälligt. Fredag 27 november öppnar vi igen med vårt jultält, med julanrättning, julmys och massor av skoj – och vi har öppet alla dagar fram till 20 december. Boka gärna bord redan nu."
+   "da": "Vi har åbent alle dage kl. 12 til 22 frem til 20. december. Kom ind i varmen med juleanretning, gløgg og udsigt til bølgerne ved molen. Book gerne bord.",
+   "en": "We're open every day from 12 noon to 10 pm until 20 December. Come in from the cold for a Christmas platter, mulled wine and a view of the waves by the pier. Feel free to book a table.",
+   "de": "Wir haben bis zum 20. Dezember täglich von 12 bis 22 Uhr geöffnet. Kommen Sie ins Warme zu Weihnachtsplatte, Glühwein und Blick auf die Wellen an der Mole. Reservieren Sie gern einen Tisch.",
+   "sv": "Vi har öppet alla dagar kl. 12 till 22 fram till 20 december. Kom in i värmen med julanrättning, glögg och utsikt över vågorna vid piren. Boka gärna bord."
   },
   "btn": {
    "da": "Book bord",
@@ -147,6 +147,10 @@
    "sv": "Ring på 31 68 88 29 eller skriv till info@jylkat-bar.dk."
   },
   "links": [
+   [
+    "juleteltet-er-oppe-ved-havnen-i-gudhjem",
+    "Juleteltet er oppe ved havnen"
+   ],
    [
     "frokost-i-gudhjem-i-december",
     "Frokost i Gudhjem i december"

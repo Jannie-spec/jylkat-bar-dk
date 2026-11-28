@@ -452,7 +452,9 @@ def julefrokost(slug):
 def restaurant():
     R = RES
     xmas = ''
-    if date.today().isoformat() <= MENU['xmas']['until']:
+    if date.today().isoformat() > MENU['xmas']['until']:
+        xmas = f'<section class="sec dark"><div class="wrap narrow"><h2>{e(R["winter_h2"])}</h2><p>{e(R["winter_p"])}</p></div></section>'
+    else:
         xmas = (f'<section class="sec dark"><div class="wrap narrow"><h2>{e(R["xmas_h2"])}</h2><p>{e(R["xmas_p"])}</p>'
                 f'<div class="btns"><a class="btn" href="{href("da", "julefrokost")}">{e(R["xmas_btn"])}</a></div></div></section>')
     dishes = ''.join(f'<div class="mi"><div class="row"><h3>{e(t(d["name"], "da"))}</h3><span class="price">{d["price"]}</span></div><p>{e(t(d["p"], "da"))}</p></div>' for d in MENU['food'][:R['food_n']])
@@ -462,8 +464,9 @@ def restaurant():
 <div class="wrap"><p class="kicker">{e(R['kicker'])}</p><h1>{e(R['h1'])}</h1><p>{e(R['lead'])}</p>
 <div class="btns"><a class="btn" href="{href('da', 'bordbestilling')}">Book et bord</a><a class="btn ghost" href="{href('da', 'menukort')}">Se menukortet</a></div></div></section>
 <section class="sec sage"><div class="wrap narrow"><h2>{e(R['intro_h2'])}</h2>{''.join(f'<p>{e(p)}</p>' for p in R['intro_ps'])}</div></section>
-<section class="sec"><div class="wrap"><h2>{e(R['food_h2'])}</h2><p class="tag">{e(R['food_p'])}</p><div class="menu-list">{dishes}</div>
-<div class="btns"><a class="btn" href="{href('da', 'menukort')}">{e(R['food_btn'])}</a></div></div></section>
+<section class="sec"><div class="wrap grid g2" style="align-items:start"><img class="photo" src="{img(R['food_img'])}" alt="{e(R['food_alt'])}" loading="lazy">
+<div><h2>{e(R['food_h2'])}</h2><p class="tag">{e(R['food_p'])}</p><div class="menu-list">{dishes}</div>
+<div class="btns"><a class="btn" href="{href('da', 'menukort')}">{e(R['food_btn'])}</a></div></div></div></section>
 {xmas}
 <section class="sec mist"><div class="wrap grid g2"><img class="photo" src="{img(R['tent_img'])}" alt="{e(R['tent_alt'])}" loading="lazy">
 <div><h2>{e(R['tent_h2'])}</h2>{''.join(f'<p>{e(p)}</p>' for p in R['tent_ps'])}</div></div></section>

@@ -4,13 +4,13 @@
  "desc": "Jylkat er bar og spisested ved Gudhjem Havn på Bornholm. Frokost og aftensmad med hummerdog, Jyldog, roserejer og lokale øl, i solen om sommeren og i et lunt telt ved havet resten af året.",
  "kicker": "BAR & SPISESTED · GUDHJEM HAVN",
  "h1": "Restaurant og spisested ved Gudhjem Havn",
- "lead": "Jylkat er mere end en bar. Hos os kan du spise frokost og aftensmad lige ved havet i Gudhjem, med god mad, lokale øl, vin og cocktails og udsigt til bølgerne ved molen.",
+ "lead": "Spis hummerdog og bornholmske retter i vores lune telt ved havet i Gudhjem, med udsigt til bølgerne ved molen. Frokost og aftensmad, lokale øl, vin og cocktails.",
  "hero": "/media/2026/10/jylkat-telt-efteraar1.jpg",
  "hero_alt": "Jylkats telt ved Gudhjem Havn med udsigt til havet",
  "intro_h2": "Frokost og aftensmad i Gudhjem",
  "intro_ps": [
   "Jylkat ligger ved havnen i Gudhjem, i samme gård som Skt. Jørgens Gaard, et af hotellerne under Klippen Hotel. Vi serverer mad hele dagen, fra frokost til aftensmad, og du kan sagtens komme forbi til en enkelt ret og et glas vin eller blive siddende hele aftenen.",
-  "Køkkenet laver enkel og god mad med havet og Bornholm i fokus. Vores kendteste ret er hummerdoggen med hummerhaler i blødt briochebrød, og ved siden af den har vi Jyldog, vores gourmethotdog med pølse fra Bornholmer Slagteren."
+  "Vi bruger gode råvarer fra øen og omegnen: pølser fra Bornholmer Slagteren, sennep fra Smedens, kryddersild fra Christiansø, øl fra Svaneke, saft fra Bornholms Mosteri og cocktails med spiritus fra Wild Distillery. Vores kendteste ret er hummerdoggen med hummerhaler i blødt briochebrød, og ved siden af den står Jyldog, vores gourmethotdog."
  ],
  "food_h2": "Det kan du spise hos os",
  "food_p": "Menuen skifter med sæsonen. Her er et udpluk af retterne lige nu. Alle retter kan også fås som take-away.",
@@ -62,5 +62,9 @@
    "Teltet ved havet om efteråret og vinteren"
   ]
  ],
- "footer_link": "Restaurant i Gudhjem"
+ "footer_link": "Restaurant i Gudhjem",
+ "food_img": "/media/2026/09/hummer20hotdog206.0-scaled.jpg",
+ "food_alt": "Hummerdog med hummerhaler, dild og citron hos Jylkat i Gudhjem",
+ "winter_h2": "Vinterpause til 19. marts",
+ "winter_p": "Efter juleteltet holder Jylkat vinterpause. Vi åbner igen fredag den 19. marts 2027 og har derefter åbent alle dage til frokost og aftensmad. Skal I holde et arrangement i vinterperioden, så skriv til os, så finder vi en løsning."
 }

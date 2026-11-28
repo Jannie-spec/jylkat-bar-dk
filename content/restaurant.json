@@ -1,0 +1,66 @@
+{
+ "slug": "restaurant-gudhjem",
+ "title": "Restaurant i Gudhjem ved havnen | Jylkat bar & spisested",
+ "desc": "Jylkat er bar og spisested ved Gudhjem Havn på Bornholm. Frokost og aftensmad med hummerdog, Jyldog, roserejer og lokale øl, i solen om sommeren og i et lunt telt ved havet resten af året.",
+ "kicker": "BAR & SPISESTED · GUDHJEM HAVN",
+ "h1": "Restaurant og spisested ved Gudhjem Havn",
+ "lead": "Jylkat er mere end en bar. Hos os kan du spise frokost og aftensmad lige ved havet i Gudhjem, med god mad, lokale øl, vin og cocktails og udsigt til bølgerne ved molen.",
+ "hero": "/media/2026/10/jylkat-telt-efteraar1.jpg",
+ "hero_alt": "Jylkats telt ved Gudhjem Havn med udsigt til havet",
+ "intro_h2": "Frokost og aftensmad i Gudhjem",
+ "intro_ps": [
+  "Jylkat ligger ved havnen i Gudhjem, i samme gård som Skt. Jørgens Gaard, et af hotellerne under Klippen Hotel. Vi serverer mad hele dagen, fra frokost til aftensmad, og du kan sagtens komme forbi til en enkelt ret og et glas vin eller blive siddende hele aftenen.",
+  "Køkkenet laver enkel og god mad med havet og Bornholm i fokus. Vores kendteste ret er hummerdoggen med hummerhaler i blødt briochebrød, og ved siden af den har vi Jyldog, vores gourmethotdog med pølse fra Bornholmer Slagteren."
+ ],
+ "food_h2": "Det kan du spise hos os",
+ "food_p": "Menuen skifter med sæsonen. Her er et udpluk af retterne lige nu. Alle retter kan også fås som take-away.",
+ "food_n": 5,
+ "food_btn": "Se hele menukortet",
+ "xmas_h2": "Juleanretning i juleteltet",
+ "xmas_p": "Frem til 20. december serverer vi juleanretning alle dage for 375 kr. pr. kuvert, med kryddersild fra Christiansø, hummersalat, røget laks, roastbeef, julemedister og Jyledog med confiteret and. Skal I være flere, kan I også holde julefrokost hos os.",
+ "xmas_btn": "Læs om julefrokost",
+ "tent_h2": "Lunt inde i teltet, tæt på havet",
+ "tent_ps": [
+  "Det helt særlige ved at spise hos Jylkat er, at du sidder lunt og varmt i vores telt, men stadig føler, at du er ude i naturen. Gennem de klare teltvægge ser du bølgerne slå ind mod molen og stenene ved Gudhjem Havn.",
+  "Om sommeren tager vi teltet ned, og så sidder du under parasollerne i solen med havnen lige foran dig. Efterår, vinter og forår kommer teltet op, når vejret kalder på det."
+ ],
+ "tent_img": "/media/2026/09/IMG_2031-scaled.jpeg",
+ "tent_alt": "Aftenstemning ved Jylkat med lyskæder ved havnen i Gudhjem",
+ "info_h2": "Åbningstider og adresse",
+ "faq_h2": "Godt at vide",
+ "faq": [
+  [
+   "Kan man spise aftensmad i Gudhjem om vinteren?",
+   "Ja. I juleperioden har Jylkat åbent alle dage kl. 12 til 21 i det lune telt ved havnen, frem til 20. december. Derefter holder vi vinterpause og åbner igen fredag i weekenden før påske."
+  ],
+  [
+   "Skal man bestille bord?",
+   "Det er ikke et krav, men vil I være sikre på et bord, især i weekenden, kan I bestille på hjemmesiden, ringe på 31 68 88 29 eller skrive til info@jylkat-bar.dk."
+  ],
+  [
+   "Kan man få maden med hjem?",
+   "Ja, alle retter fra menukortet kan også fås som take-away."
+  ],
+  [
+   "Kan man overnatte i nærheden?",
+   "Ja. Jylkat ligger i samme gård som Skt. Jørgens Gaard, og Klippen Hotel har flere hoteller i Gudhjem."
+  ]
+ ],
+ "overnight_url": "https://www.hotelklippen.com/skt-joergens-gaard-gudhjem",
+ "read_h2": "Læs mere",
+ "read": [
+  [
+   "frokost-i-gudhjem-i-december",
+   "Frokost i Gudhjem i december"
+  ],
+  [
+   "aftensmad-i-gudhjem-om-vinteren",
+   "Aftensmad i Gudhjem om vinteren"
+  ],
+  [
+   "jylkat-bar-telt-varme-efterar-vinter",
+   "Teltet ved havet om efteråret og vinteren"
+  ]
+ ],
+ "footer_link": "Restaurant i Gudhjem"
+}

@@ -10,8 +10,8 @@ from datetime import date
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
 C = lambda n: json.load(open(os.path.join(ROOT, 'content', n + '.json'), encoding='utf-8'))
-COMMON, HOME, MENU, ABOUT, GAL, BOOK, CONTACT, BLOG, JUL = (C(n) for n in
-    ['common', 'home', 'menu', 'about', 'gallery', 'booking', 'contact', 'blog', 'julefrokost'])
+COMMON, HOME, MENU, ABOUT, GAL, BOOK, CONTACT, BLOG, JUL, RES = (C(n) for n in
+    ['common', 'home', 'menu', 'about', 'gallery', 'booking', 'contact', 'blog', 'julefrokost', 'restaurant'])
 LANGS = ['da', 'en', 'de', 'sv']
 DOMAIN = 'https://jylkat-bar.dk'
 TEST = '--test' in sys.argv                 # skjult testmappe på serveren: /ny-side/
@@ -93,6 +93,7 @@ def footer(lang):
 <li><a href="{href(lang, 'menukort')}">{e(t(COMMON['nav'][0][1], lang))}</a></li>
 <li><a href="{href(lang, 'bordbestilling')}">{e(t(COMMON['nav'][3][1], lang))}</a></li>
 <li><a href="{href('da', 'blog')}">{e(t(COMMON['nav'][4][1], lang))}</a></li>
+{f'<li><a href="{href("da", RES["slug"])}">{e(RES["footer_link"])}</a></li>' if lang == 'da' else ''}
 <li><a href="{COMMON['gift_url']}&amp;lang={lang}">{e(t(COMMON['nav'][6][1], lang))}</a></li></ul></div>
 <div><h4>{e(t(F['find'], lang))}</h4><p>Ejnar Mikkelsensvej 14<br>3760 Gudhjem<br>Bornholm</p></div>
 <div><h4>{e(t(F['contact'], lang))}</h4><p><a href="tel:{COMMON['phone_tel']}">{COMMON['phone']}</a><br><a href="mailto:{COMMON['email']}">{COMMON['email']}</a></p></div>
@@ -232,7 +233,8 @@ def xmas_links(xm, lang):
     L = xm.get('links') if lang == 'da' else None
     if not L:
         return ''
-    return '<p class="small">Læs også: ' + ' · '.join(f'<a href="{href("da", "blog/" + s)}">{e(n)}</a>' for s, n in L) + '</p>'
+    jf = f'<a href="{href("da", "julefrokost")}">Julefrokost i juleteltet</a> · ' if date.today().isoformat() <= JUL['until'] else ''
+    return '<p class="small">Læs også: ' + jf + ' · '.join(f'<a href="{href("da", "blog/" + s)}">{e(n)}</a>' for s, n in L) + '</p>'
 
 
 def xmas_html(M, lang):
@@ -444,7 +446,36 @@ def julefrokost(slug):
 <section class="sec mist" id="{fid}"><div class="wrap narrow"><h2>Forespørg på jeres dato</h2>
 {form(P['form_type'], 'da', ''.join(fields), 'Send forespørgsel', 'Tak! Vi har modtaget jeres forespørgsel og vender tilbage hurtigst muligt.', t(BOOK['fields']['error'], 'da'), fid='f-' + fid)}
 <p class="small" style="margin-top:18px">{P['after_form']}</p></div></section>'''
-    return page('da', slug, P['title'], P['desc'], body, langs=['da'], noindex=True, current='bordbestilling')
+    return page('da', slug, P['title'], P['desc'], body, langs=['da'], noindex=date.today().isoformat() > J['until'], current='bordbestilling')
+
+
+def restaurant():
+    R = RES
+    xmas = ''
+    if date.today().isoformat() <= MENU['xmas']['until']:
+        xmas = (f'<section class="sec dark"><div class="wrap narrow"><h2>{e(R["xmas_h2"])}</h2><p>{e(R["xmas_p"])}</p>'
+                f'<div class="btns"><a class="btn" href="{href("da", "julefrokost")}">{e(R["xmas_btn"])}</a></div></div></section>')
+    dishes = ''.join(f'<div class="mi"><div class="row"><h3>{e(t(d["name"], "da"))}</h3><span class="price">{d["price"]}</span></div><p>{e(t(d["p"], "da"))}</p></div>' for d in MENU['food'][:R['food_n']])
+    faq = ''.join(f'<div class="card"><h3>{e(q)}</h3><p>{e(a)}</p></div>' for q, a in R['faq'])
+    read = ' · '.join(f'<a href="{href("da", "blog/" + s)}">{e(n)}</a>' for s, n in R['read'])
+    body = f'''<section class="hero"><img class="bg" src="{img(R['hero'])}" alt="{e(R['hero_alt'])}" fetchpriority="high">
+<div class="wrap"><p class="kicker">{e(R['kicker'])}</p><h1>{e(R['h1'])}</h1><p>{e(R['lead'])}</p>
+<div class="btns"><a class="btn" href="{href('da', 'bordbestilling')}">Book et bord</a><a class="btn ghost" href="{href('da', 'menukort')}">Se menukortet</a></div></div></section>
+<section class="sec sage"><div class="wrap narrow"><h2>{e(R['intro_h2'])}</h2>{''.join(f'<p>{e(p)}</p>' for p in R['intro_ps'])}</div></section>
+<section class="sec"><div class="wrap"><h2>{e(R['food_h2'])}</h2><p class="tag">{e(R['food_p'])}</p><div class="menu-list">{dishes}</div>
+<div class="btns"><a class="btn" href="{href('da', 'menukort')}">{e(R['food_btn'])}</a></div></div></section>
+{xmas}
+<section class="sec mist"><div class="wrap grid g2"><img class="photo" src="{img(R['tent_img'])}" alt="{e(R['tent_alt'])}" loading="lazy">
+<div><h2>{e(R['tent_h2'])}</h2>{''.join(f'<p>{e(p)}</p>' for p in R['tent_ps'])}</div></div></section>
+<section class="sec sage"><div class="wrap grid g2" style="align-items:start"><div><h2>{e(R['info_h2'])}</h2>{info_block('da')}
+<div class="btns"><a class="btn" href="{href('da', 'bordbestilling')}">Book et bord</a></div></div>{map_block('da')}</div></section>
+<section class="sec"><div class="wrap"><h2>{e(R['faq_h2'])}</h2><div class="grid g2" style="margin-top:24px">{faq}</div>
+<div class="btns"><a class="btn ghost" href="{R['overnight_url']}">Se Skt. Jørgens Gaard</a></div>
+<p class="small" style="margin-top:18px">{e(R['read_h2'])}: {read}</p></div></section>'''
+    ld = [local_business('da'),
+          {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [
+              {"@type": "Question", "name": q, "acceptedAnswer": {"@type": "Answer", "text": a}} for q, a in R['faq']]}]
+    return page('da', R['slug'], R['title'], R['desc'], body, langs=['da'], ld=ld, og_img=R['hero'], current='menukort')
 
 
 def notfound(lang='da'):
@@ -469,6 +500,10 @@ def sitemap():
             alts = ''.join(f'<xhtml:link rel="alternate" hreflang="{A}" href="{DOMAIN + path(A, slug)}"/>' for A in LANGS)
             alts += f'<xhtml:link rel="alternate" hreflang="x-default" href="{DOMAIN + path("da", slug)}"/>'
             urls.append(f'<url><loc>{DOMAIN + path(L, slug)}</loc><lastmod>{today}</lastmod>{alts}</url>')
+    urls.append(f'<url><loc>{DOMAIN}/{RES["slug"]}</loc><lastmod>{today}</lastmod></url>')
+    if today <= JUL['until']:
+        for s in JUL['pages']:
+            urls.append(f'<url><loc>{DOMAIN}/{s}</loc><lastmod>{today}</lastmod></url>')
     urls.append(f'<url><loc>{DOMAIN}/blog</loc><lastmod>{today}</lastmod></url>')
     for p in BLOG['posts']:
         urls.append(f'<url><loc>{DOMAIN}/blog/{p["slug"]}</loc><lastmod>{p["date"]}</lastmod></url>')
@@ -488,6 +523,7 @@ def main():
         write(f'blog/{p["slug"]}.html', blog_post(p))
     for s in JUL['pages']:
         write(s + '.html', julefrokost(s))
+    write(RES['slug'] + '.html', restaurant())
     write('404.html', notfound())
     write('sitemap.xml', sitemap())
     write('robots.txt', f'User-agent: *\nAllow: /\n\nSitemap: {DOMAIN}/sitemap.xml\n')
